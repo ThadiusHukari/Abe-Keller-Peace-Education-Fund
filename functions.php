@@ -56,6 +56,7 @@ register_sidebar(array (
 //register my menu 
 register_nav_menus(array(
     'main-menu' => __ ('Main'), 
+    'secondary' => __ ('Footer-menu')
 ));
 //
 //Create Post thumbnails
