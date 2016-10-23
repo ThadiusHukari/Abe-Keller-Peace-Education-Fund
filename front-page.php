@@ -32,8 +32,6 @@
     </section>
     
     <section class="widget-item">
-	<h1>Contact</h1>
-	    <p><strong>Phone:</strong> 916.867.5309</p>
     </section>
     <small>front-page.php</small>
     </div>

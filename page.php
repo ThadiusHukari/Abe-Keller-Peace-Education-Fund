@@ -1,9 +1,6 @@
 <!--Get Header Function-->
 
 <?php get_header(); ?>
-
-	<img class="centeredimage" src="<?php bloginfo('template_directory');?>/images/aboutpic.jpg" alt="Picture of Loving Couple within blossuming tree branches"/><br>
-        
 	    
     <!--Begin Text-->
 		<div id="content">
