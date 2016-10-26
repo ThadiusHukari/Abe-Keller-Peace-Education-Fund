@@ -37,8 +37,6 @@
 		
 		<?php endwhile; endif; //end the loop?>
 		
-		<small>index.php</small>
-		
 		</div>
     <!--End Text-->
 	    
