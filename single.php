@@ -28,7 +28,7 @@
 			<?php endwhile; endif; //end the loop ?>
 		    
 		    </article>
-		    <small>single.php</small>
+		    <!--<small>single.php</small>-->
 		</div>
     <!--End Text-->
             
