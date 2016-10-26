@@ -31,9 +31,6 @@
 		    <!--<small>single.php</small>-->
 		</div>
     <!--End Text-->
-            
-<!--Get Sidebar Function-->
-<?php get_sidebar(); ?>
 	    
 <!--Get Footer Function-->
 <?php get_footer(); ?> 

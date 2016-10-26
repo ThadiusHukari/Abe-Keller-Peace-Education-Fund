@@ -35,10 +35,6 @@
     </section>
     <small>front-page.php</small>
     </div>
-  
-            
-<!--Get Sidebar Function-->
-<?php get_sidebar(); ?>
 	    
 <!--Get Footer Function-->
 <?php get_footer(); ?> 
