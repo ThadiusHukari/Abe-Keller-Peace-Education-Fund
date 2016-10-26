@@ -1,7 +1,5 @@
 <!--Get Header Function-->
 <?php get_header(); ?>
-
-        
 	    
     <!--Begin Text-->
 		<div id="content">
