@@ -60,6 +60,5 @@
 <!--End Dynamic Sidebar-->
 
 
-<small>sidebar.php</small>
 </div>
 <!--End Sidebar -->

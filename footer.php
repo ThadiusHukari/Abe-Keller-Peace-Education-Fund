@@ -12,7 +12,6 @@
 	<?php wp_footer(); ?>
 	<!--End WP Footer-->
         
-        <small>footer.php</small> 
 
     <!--Begin Navigation-->
 	<?php wp_nav_menu( array ('theme_location' => 'secondary', 'container'=> 'div', 'container_id' => 'footer-nav',

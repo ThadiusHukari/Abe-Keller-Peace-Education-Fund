@@ -33,7 +33,7 @@
     
     <section class="widget-item">
     </section>
-    <small>front-page.php</small>
+    
     </div>
 	    
 <!--Get Footer Function-->
