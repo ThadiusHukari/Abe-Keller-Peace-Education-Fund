@@ -48,6 +48,11 @@ a img.aligncenter {
     margin-right: auto
 }
 
+.leftalign {
+    float: left;
+    margin: 15px 20px 20px 0;
+}
+
 .wp-caption {
     background: #fff;
     border: 1px solid #f0f0f0;
@@ -111,4 +116,27 @@ a img.aligncenter {
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#nav-main {
+    display: inline;
+}
+
+/* primary sidebar - right column */
+#sidebar {
+    float: right;
+    width: 220px;
+    /*margin-top: 8em;*/
 }

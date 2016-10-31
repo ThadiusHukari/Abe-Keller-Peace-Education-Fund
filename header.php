@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
     <!-- Begin JavaScript for Flexslider - Woohoo Themes -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -37,8 +37,10 @@
     <div id="header">
             
 	<!--Begin Navigation-->
-	<?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
-	    'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
+    <nav id="nav-main">
+        <?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
+            'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
+    </nav>
 	<!--End Navigation-->
             
     </div>

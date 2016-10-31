@@ -5,6 +5,22 @@
     <!--Begin Flexslider-->
     <div  class="flexslider">
         <ul class="slides">
+            <li>
+              <img src="images/black_square.jpg" />
+              <p class="flex-caption"></p>
+            </li>
+            <li>
+              <img src="images/black_square.jpg" />
+              <p class="flex-caption"></p>
+            </li>
+            <li>
+              <img src="images/black_square.jpg" />
+              <p class="flex-caption"></p>
+            </li>
+            <li>
+              <img src="images/black_square.jpg" />
+              <p class="flex-caption"></p>
+            </li>
         </ul>
     </div>
     <!--End Flexslider-->
@@ -25,5 +41,8 @@
     
     </div>
 	    
+<!--Get Sidebar Function-->
+<?php get_sidebar(); ?>
+
 <!--Get Footer Function-->
 <?php get_footer(); ?> 
