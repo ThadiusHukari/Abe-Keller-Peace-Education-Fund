@@ -173,7 +173,7 @@ a img.aligncenter {
 /* Home specific */
 .ctacontainer{
 	max-width:960px;
-	margin:0 auto 32px;
+	margin:32px auto;
 	float: left;
 }
 
