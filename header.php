@@ -5,8 +5,7 @@
     <!-- Begin JavaScript for Flexslider - Woohoo Themes -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
-	
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.flexslider.js"></script>
 	
 	<script type="text/javascript" charset="utf-8">
 	$(window).load(function() {

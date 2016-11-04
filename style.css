@@ -130,8 +130,27 @@ a img.aligncenter {
   line-height: 18px;
 }
 
-#nav-main {
-    display: inline;
+#navigation-items > li {
+    display: inline-block;
+    position: relative;
+    
+}
+
+#navigation-items > li > ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    /*min-width: 160px;*/
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+#navigation-items > li:hover > ul {
+    display: block;
+    
+}
+
+#footer-nav > li {
+    display: inline-block;   
 }
 
 /* primary sidebar - right column */
