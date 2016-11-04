@@ -208,6 +208,17 @@ a img.aligncenter {
 	line-height:1.5;
 }
 
+.slideshow_container::after {
+    content: "Welcome to Abe Keller Peace Education Fund";
+    position: relative;
+    top: -90px;
+    left: 45%;
+    background-color: rgb(230, 230, 230);
+    font-size: 1.6em;
+    padding: 0.5em;
+}
+	
+
 /*footer*/
 footer{
 	clear: both;
