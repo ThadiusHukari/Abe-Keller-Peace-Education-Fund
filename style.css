@@ -159,3 +159,56 @@ a img.aligncenter {
     width: 220px;
     /*margin-top: 8em;*/
 }
+
+/* Body */
+	body{
+		max-width:960px;
+		margin:0 auto;
+		background-image: url(images/12colum.png);
+		background-size:1000px;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+
+/* Home specific */
+.ctacontainer{
+	max-width:960px;
+	margin:0 auto 32px;
+	float: left;
+}
+
+.ctacontainer img{
+	width: 100%;
+}
+
+.home .widget{
+	width: 32%;
+	float:left;
+	margin: 0 2% 0 0;
+}
+
+#ctaThree{
+	margin-right:0;
+}
+
+.home .widget a{
+	text-decoration:none;
+	display:block;
+}
+
+.home .widget a h3{
+	font-weight:400;
+	margin: 0 8px;
+	font-size:1.2em;
+}
+
+.home .widget p{
+	margin:8px;
+	font-size:1em;
+	line-height:1.5;
+}
+
+/*footer*/
+footer{
+	clear: both;
+}

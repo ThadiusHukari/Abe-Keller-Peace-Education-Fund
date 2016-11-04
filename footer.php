@@ -2,11 +2,9 @@
     <!--End Content-->
 	
     
-    <!--Start footer-->
-    <div id="footer">
-        <p>We are going to need our footer stuff here!</p>
-    </div>
-	<!--End footer-->
+    
+    <footer>
+
 	
 	<!--Start WP Footer-->
 	<?php wp_footer(); ?>
@@ -18,6 +16,7 @@
 	    'items_wrap' => '<ul id="footer-nav" class=%2$s">%3$s</ul>', 
                              )); ?>
 	<!--End Navigation-->
+    </footer>
 
 
 </body>
