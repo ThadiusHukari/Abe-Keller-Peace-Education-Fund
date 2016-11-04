@@ -133,6 +133,9 @@ a img.aligncenter {
 #navigation-items > li {
     display: inline-block;
     position: relative;
+	z-index:999;
+	width:17%;
+	padding: 0.5em;
     
 }
 
@@ -150,7 +153,9 @@ a img.aligncenter {
 }
 
 #footer-nav > li {
-    display: inline-block;   
+    display: inline-block; 
+	width:17%;
+	padding: 0.5em;	  
 }
 
 /* primary sidebar - right column */
