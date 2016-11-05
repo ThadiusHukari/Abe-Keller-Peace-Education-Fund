@@ -161,8 +161,8 @@ a img.aligncenter {
 /* primary sidebar - right column */
 #sidebar {
     float: right;
-    width: 220px;
-    /*margin-top: 8em;*/
+    width: 23%;
+   
 }
 
 /* Body */
@@ -231,12 +231,16 @@ footer{
 
 /*Gateway page*/
 .page-excerpt{
-	float:left;
-	clear:both;
-	margin-top:1em;
+	clear:left;
+	padding-top:1em;
 }
 
 .gateway{
 	float: left;
 	margin-right:1em;
+}
+
+#content{
+	float:left;
+	width:75%;
 }
