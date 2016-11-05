@@ -228,3 +228,15 @@ a img.aligncenter {
 footer{
 	clear: both;
 }
+
+/*Gateway page*/
+.page-excerpt{
+	float:left;
+	clear:both;
+	margin-top:1em;
+}
+
+.gateway{
+	float: left;
+	margin-right:1em;
+}

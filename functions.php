@@ -7,6 +7,36 @@ Description: Theme for Abe Keller Peace Education FUNd
 Version: 1.0
 */
 
+//Create Post thumbnails
+add_theme_support( 'post-thumbnails' );
+
+
+function get_child_pages() {
+	
+	global $post;
+	
+	rewind_posts(); // stop any previous loops 
+	query_posts(array('post_type' => 'page', 'posts_per_page' => -1, 'post_status' => publish,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages 
+    
+	while (have_posts()) : the_post(); 
+	
+		$childPermalink = get_permalink( $post->ID ); // post permalink
+		$childID = $post->ID; // post id
+		$childTitle = $post->post_title; // post title
+		$childExcerpt = $post->post_excerpt; // post excerpt  
+		$childImg = wp_get_attachment_url(get_post_thumbnail_id($post->ID )); // post img      	
+		
+		echo '<article id="page-excerpt-'.$childID.'" class="page-excerpt">';
+		echo '<img src=" '.$childImg. '" class="gateway">';
+		echo '<h3><a href="'.$childPermalink.'">'.$childTitle.'</a></h3>';
+		echo '<p>'.$childExcerpt.' <a href="'.$childPermalink.'"></a></p>';
+		echo '</article>';
+        
+	endwhile;
+	
+	wp_reset_query(); // reset query
+        
+}
 
 //Get My Title Tag
 function get_my_title_tag(){
@@ -59,7 +89,6 @@ register_nav_menus(array(
     'secondary' => __ ('Footer-menu')
 ));
 //
-//Create Post thumbnails
-add_theme_support( 'post-thumbnails' );
+
 //
 ?>
