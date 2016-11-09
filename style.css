@@ -250,6 +250,10 @@ footer{
 	top: -40px;
 }
 
+footer p{
+	text-align:center;
+}
+
 /*Gateway page*/
 .page-excerpt{
 	clear:left;
