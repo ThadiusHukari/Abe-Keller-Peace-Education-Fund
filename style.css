@@ -135,6 +135,7 @@ a img.aligncenter {
 	width:85%;
 	margin-top:40px;
 	line-height:1.5em;
+	background-color:#eeeeee;
 }
 
 #navigation-items > li {
@@ -169,6 +170,8 @@ a img.aligncenter {
 #sidebar {
     float: right;
     width: 23%;
+	background-color:#eeeeee;
+	line-height:2em;
    
 }
 
