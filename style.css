@@ -242,8 +242,8 @@ footer{
 #logo-footer{
 	max-width: 80px;
 	position:absolute;
-	left: 50%;
-	top: -50%;
+	left: calc(50% - 40px);
+	top: -60%;
 }
 
 /*Gateway page*/
@@ -260,4 +260,5 @@ footer{
 #content{
 	float:left;
 	width:75%;
+	margin-bottom:4em;
 }
