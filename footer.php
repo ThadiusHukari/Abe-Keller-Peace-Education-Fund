@@ -4,6 +4,7 @@
     
     
     <footer>
+    <img src="http://localhost:8888/wordpress/wp-content/themes/Abe-Keller-Peace-Education-Fund/images/logo.png"  alt="Logo" id="logo-footer"/>
 
 	
 	<!--Start WP Footer-->

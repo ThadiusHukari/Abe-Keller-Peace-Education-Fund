@@ -234,6 +234,16 @@ a img.aligncenter {
 /*footer*/
 footer{
 	clear: both;
+	background-color: #eeeeee;
+    min-height: 100px;
+    line-height: 100px;
+}
+
+#logo-footer{
+	max-width: 80px;
+	position:absolute;
+	left: 50%;
+	top: -50%;
 }
 
 /*Gateway page*/
