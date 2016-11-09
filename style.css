@@ -166,6 +166,14 @@ a img.aligncenter {
 	padding: 0.5em;	  
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* primary sidebar - right column */
 #sidebar {
     float: right;
