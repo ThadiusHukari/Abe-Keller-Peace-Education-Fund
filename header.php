@@ -37,6 +37,7 @@
             
 	<!--Begin Navigation-->
     <nav id="nav-main">
+    	<img src="http://localhost:8888/wordpress/wp-content/themes/Abe-Keller-Peace-Education-Fund/images/logo.png"  alt="Logo" id="logo"/>
         <?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
             'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
     </nav>

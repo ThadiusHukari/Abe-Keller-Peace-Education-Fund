@@ -130,6 +130,11 @@ a img.aligncenter {
   line-height: 18px;
 }
 
+#navigation{
+	float:right;
+	width:85%;
+}
+
 #navigation-items > li {
     display: inline-block;
     position: relative;
