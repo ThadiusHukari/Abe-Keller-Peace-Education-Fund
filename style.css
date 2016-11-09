@@ -237,13 +237,14 @@ footer{
 	background-color: #eeeeee;
     min-height: 100px;
     line-height: 100px;
+	position:relative;
 }
 
 #logo-footer{
 	max-width: 80px;
 	position:absolute;
 	left: calc(50% - 40px);
-	top: -60%;
+	top: 40px;
 }
 
 /*Gateway page*/
