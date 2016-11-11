@@ -17,9 +17,9 @@
 <!-- End Content -->
 
 <!-- Apply & Donate Buttons -->
-<a href="http://localhost:8888/wordpress/grants/apply/" class="alignright"><img src=http://localhost:8888/wordpress/wp-content/themes/Abe-Keller-Peace-Education-Fund/images/apply_button.png alt="apply" id="apply" /></a>
+<a href="http://www.abekeller.tzaccara.com/grants/apply/" class="alignright"><img src="http://www.abekeller.tzaccara.com/wp-content/themes/abekeller/images/apply_button.png" alt="apply" id="apply" /></a>
 
-<a href="http://localhost:8888/wordpress/donate/" class="alignright"><img src=http://localhost:8888/wordpress/wp-content/themes/Abe-Keller-Peace-Education-Fund/images/donate_button.png alt="donate" id="donate" /></a>
+<a href="http://www.abekeller.tzaccara.com/donate/" class="alignright"><img src="http://www.abekeller.tzaccara.com/wp-content/themes/abekeller/images/donate_button.png" alt="donate" id="donate" /></a>
 
 <!--Get Sidebar Function-->
 <?php get_sidebar(); ?>
