@@ -197,10 +197,6 @@ a:hover, a:focus {
     
 }
 
-#navigation-items > li > ul:hover {
-    background-color: #d7dee3;
-}
-
 #footer-nav > li {
     display: inline-block; 
 	width:17%;
