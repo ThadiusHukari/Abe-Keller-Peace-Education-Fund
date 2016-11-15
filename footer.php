@@ -17,7 +17,7 @@
 	    'items_wrap' => '<ul id="footer-nav" class=%2$s">%3$s</ul>', 
                              )); ?>
 	<!--End Navigation-->
-    <p>Wilda Luttermoser PO Box 3594 Redmond, WA 98073 ~ abekellerfund@gmail.com</p>
+    <p>PO Box 3594 Redmond, WA 98073 ~ abekellerfund@gmail.com</p>
     </footer>
 
 
