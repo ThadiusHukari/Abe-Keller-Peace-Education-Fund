@@ -165,18 +165,18 @@ a:hover, a:focus {
     
 }
 
-#navigation-items a {
+#navigation-items li a {
 	color: #d7dee3;
     text-decoration: none;
 }
 
-#navigation-items a:hover {
+#navigation-items > li:hover {
+	background-color: #d7dee3; 
 	color: #db5959;
 }
 
-
-#navigation-items > li:hover {
-	background-color: #d7dee3; 
+#navigation-items li a:hover {
+	color: #db5959;
 }
 
 #navigation-items > li > ul {
