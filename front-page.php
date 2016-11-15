@@ -6,11 +6,13 @@
     <!--End Flexslider-->
     
     <!-- START CONTENT -->
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div id="post-<?php the_ID(); ?>">    
-            <?php the_content('<p class="serif">More &raquo;</p>'); ?>
-        </div> 
-	<?php endwhile; endif; ?>  
+    <div id="content" class="seo">
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <div id="post-<?php the_ID(); ?>">    
+                <?php the_content('<p class="serif">More &raquo;</p>'); ?>
+            </div> 
+        <?php endwhile; endif; ?>  
+    </div>
 	<!-- END CONTENT -->
     
     <!--Begin Wigets-->
