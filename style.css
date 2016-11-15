@@ -170,14 +170,14 @@ a:hover, a:focus {
 	color: #db5959;
 }
 
-#navigation-items > ul li a {
+#navigation-items > li a {
 	color: #d7dee3;
     text-decoration: none;
 	display:block;
 	padding: 12px 0;
 }
 
-#navigation-items > ul li a:hover {
+#navigation-items > li a:hover {
 	color: #db5959;
 	background-color:#d7dee3;
 }
