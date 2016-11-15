@@ -16,6 +16,9 @@ Version: 1.0
 a img{
 	border: 0;
 }
+ul{
+	list-style:none;
+}
 
 /*General style*/
 html{
@@ -61,10 +64,13 @@ h2{
 
 h3{
 	font-size:1.2em;
-	margin-top:1em;
 	margin-bottom:0.5em;
 }
 
+h3 a{
+	color: #1a5b72;
+	text-decoration:none;
+}
 
 /*links styles*/
 a:link, a:visited {
@@ -129,18 +135,21 @@ a:hover, a:focus {
 #sidebar {
     float: right;
     width: 23%;
-	background-color:#eeeeee;
-	line-height:2em;
-   
+	background-color:#d7dee3;
+	line-height:2em; 
 }
 
+#sidebar a{
+	color: #333;
+	text-decoration:none;
+}
 
 /*footer*/
 footer{
 	clear: both;
 	background-color: #1a5b72;;
-    min-height: 80px;
-    line-height: 80px;
+    min-height: 60px;
+    line-height: 60px;
 	position:relative;
 }
 
@@ -259,6 +268,7 @@ footer p{
 .gateway{
 	float: left;
 	margin-right:1.5em;
+	border-radius:50%;
 }
 
 
