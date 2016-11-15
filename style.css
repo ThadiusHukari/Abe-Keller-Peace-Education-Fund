@@ -176,7 +176,7 @@ a:hover, a:focus {
 	color: #db5959;
 }
 
-#navigation-items a:hover {
+#navigation-items > li a:hover {
 	color: #db5959; 
 }
 
