@@ -165,16 +165,11 @@ a:hover, a:focus {
     
 }
 
-#navigation-items > li:hover {
-	background-color: #d7dee3; 
-	color: #db5959;
-}
-
 #navigation-items > li a {
 	color: #d7dee3;
     text-decoration: none;
 	display:block;
-	padding: 12px 0;
+	padding: 12px 8px;
 }
 
 #navigation-items > li a:hover,
