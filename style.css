@@ -177,7 +177,8 @@ a:hover, a:focus {
 	padding: 12px 0;
 }
 
-#navigation-items > li a:hover {
+#navigation-items > li a:hover,
+#navigation-items > li a:active {
 	color: #db5959;
 	background-color:#d7dee3;
 }
@@ -199,12 +200,7 @@ a:hover, a:focus {
 
 #footer-nav > li {
     display: inline-block; 
-	width:17%;
-	padding: 0.5em;	  
-}
-
-a {
-    text-decoration: none;
+	width:17%;	  
 }
 
 ul {
