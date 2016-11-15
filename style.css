@@ -51,9 +51,10 @@ p{
     padding: 0.5em;
 }
 
-.seo{
+#content.seo{
     max-width: 580px;
     margin: 1em auto;
+	float: none;
 }
 
 .ctacontainer{
@@ -240,7 +241,6 @@ footer p{
 #content{
 	float:left;
 	width:75%;
-	margin-bottom:4em;
 }
 
 
