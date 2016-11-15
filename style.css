@@ -147,12 +147,17 @@ a:hover, a:focus {
 
 
 /*Header*/
+#logo{
+	float: left;
+	position: relative;
+	top: -50px;	
+}
+
 #navigation{
-	float:right;
-	width:85%;
 	margin-top:40px;
 	line-height:1.5em;
 	background-color:#1a5b72;
+	border-radius: 50px 0 0 50px;
 }
 
 #navigation-items > li {

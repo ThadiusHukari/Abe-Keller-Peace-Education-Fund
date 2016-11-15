@@ -38,6 +38,7 @@
             
 	<!--Begin Navigation-->
     <a href="<?php bloginfo('url'); ?>" class="logo"><img src=<?php echo get_template_directory_uri(); ?>/images/logo.png alt="<?php bloginfo('name'); ?>" id="logo" /></a>
+    <h1>Abe Keller Peace Education Fund</h1>
     <nav id="nav-main">
         <?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
             'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
