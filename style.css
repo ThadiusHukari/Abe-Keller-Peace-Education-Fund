@@ -164,9 +164,19 @@ a:hover, a:focus {
 	padding: 0.5em;
     
 }
+
+#navigation-items a {
+	color: #d7dee3;
+    text-decoration: none;
+}
+
+
 #navigation-items > li:hover {
-	background-color: #d7dee3;
-	color: #db5959;    
+	background-color: #d7dee3;   
+}
+
+#navigation-items a:hover {
+	color: #db5959; 
 }
 
 #navigation-items > li > ul {
