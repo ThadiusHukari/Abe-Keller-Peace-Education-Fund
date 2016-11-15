@@ -6,6 +6,241 @@ Description: Theme for Abe Keller Peace Education FUNd
 Version: 1.0
 */
 
+
+
+/*Resets*/
+* {
+	margin: 0;
+	padding: 0;
+}
+a img{
+	border: 0;
+}
+
+/*General style*/
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top:0.5em;
+	font-size:1em;
+	color: #333;
+	line-height:1.5;
+}
+body{
+	max-width:960px;
+	margin:0 auto;
+	background-image:url(images/dove.png);
+	background-repeat:no-repeat;
+	background-position: 70% 35%;
+	
+}
+
+p{
+	margin-bottom:0.5em;
+}
+
+/* Home specific */
+.ctacontainer{
+	max-width:960px;
+	margin:32px auto;
+	float: left;
+	position:relative;
+}
+
+.ctacontainer img{
+	max-width: 100%;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+	
+}
+
+.home .widget{
+	width: 31%;
+	float:left;
+	margin: 0 2% 0 0;
+}
+
+#ctaThree{
+	margin-right:0;
+}
+
+.home .widget a{
+	text-decoration:none;
+	display:block;
+	color: #333;
+}
+
+.home .widget a h2{
+	margin: 0 8px;
+	color: #1a5b72;
+	font-size: 2.2em;
+}
+
+.home .widget p{
+	margin:8px;
+}
+
+.slideshow_container::after {
+    content: "Welcome to Abe Keller Peace Education Fund";
+    position: relative;
+    top: -90px;
+    left: 45%;
+    background-color: rgb(230, 230, 230);
+    font-size: 1.6em;
+    padding: 0.5em;
+}
+
+
+
+
+/*headings styles*/
+h1{
+	margin-bottom:0.5em;
+    text-align: center;
+}
+
+h2{
+	color: #601a07;
+	font-size:1.5em;
+	margin-top:1em;
+	margin-bottom:0.5em;
+}
+
+h3{
+	font-size:1.2em;
+	margin-top:1em;
+	margin-bottom:0.5em;
+}
+
+h4{
+	font-weight: bold;
+	margin-top:1em;
+	margin-bottom:0.5em;
+}
+
+/*links styles*/
+a:link, a:visited {
+    color: #db5959;
+	text-decoration:underline;
+}
+
+a:hover, a:focus {
+    font-weight: bold;
+}
+
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#navigation{
+	float:right;
+	width:85%;
+	margin-top:40px;
+	line-height:1.5em;
+	background-color:#eeeeee;
+}
+
+#navigation-items > li {
+    display: inline-block;
+    position: relative;
+	z-index:999;
+	width:17%;
+	padding: 0.5em;
+    
+}
+
+#navigation-items > li > ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+#navigation-items > li:hover > ul {
+    display: block;
+    
+}
+
+#footer-nav > li {
+    display: inline-block; 
+	width:17%;
+	padding: 0.5em;	  
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* primary sidebar - right column */
+#sidebar {
+    float: right;
+    width: 23%;
+	background-color:#eeeeee;
+	line-height:2em;
+   
+}
+
+
+	
+
+/*footer*/
+footer{
+	clear: both;
+	background-color: #eeeeee;
+    min-height: 100px;
+    line-height: 100px;
+	position:relative;
+}
+
+#logo-footer{
+	max-width: 80px;
+	position:absolute;
+	left: calc(50% - 40px);
+	top: -40px;
+}
+
+footer p{
+	text-align:center;
+}
+
+/*Gateway page*/
+.page-excerpt{
+	clear:left;
+	padding-top:1em;
+}
+
+.gateway{
+	float: left;
+	margin-right:1.5em;
+}
+
+#content{
+	float:left;
+	width:75%;
+	margin-bottom:4em;
+}
+
+
+
+
+
+
+
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
@@ -116,165 +351,4 @@ a img.aligncenter {
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
-}
-
-.flex-caption {
-  width: 96%;
-  padding: 2%;
-  left: 0;
-  bottom: 0;
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
-  line-height: 18px;
-}
-
-#navigation{
-	float:right;
-	width:85%;
-	margin-top:40px;
-	line-height:1.5em;
-	background-color:#eeeeee;
-}
-
-#navigation-items > li {
-    display: inline-block;
-    position: relative;
-	z-index:999;
-	width:17%;
-	padding: 0.5em;
-    
-}
-
-#navigation-items > li > ul {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-}
-
-#navigation-items > li:hover > ul {
-    display: block;
-    
-}
-
-#footer-nav > li {
-    display: inline-block; 
-	width:17%;
-	padding: 0.5em;	  
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-/* primary sidebar - right column */
-#sidebar {
-    float: right;
-    width: 23%;
-	background-color:#eeeeee;
-	line-height:2em;
-   
-}
-
-/* Body */
-	body{
-		max-width:960px;
-		margin:0 auto;
-		background-image: url(images/12colum.png);
-		background-size:1000px;
-		background-repeat:no-repeat;
-		background-position:center;
-	}
-
-/* Home specific */
-.ctacontainer{
-	max-width:960px;
-	margin:32px auto;
-	float: left;
-}
-
-.ctacontainer img{
-	width: 100%;
-}
-
-.home .widget{
-	width: 32%;
-	float:left;
-	margin: 0 2% 0 0;
-}
-
-#ctaThree{
-	margin-right:0;
-}
-
-.home .widget a{
-	text-decoration:none;
-	display:block;
-}
-
-.home .widget a h3{
-	font-weight:400;
-	margin: 0 8px;
-	font-size:1.2em;
-}
-
-.home .widget p{
-	margin:8px;
-	font-size:1em;
-	line-height:1.5;
-}
-
-.slideshow_container::after {
-    content: "Welcome to Abe Keller Peace Education Fund";
-    position: relative;
-    top: -90px;
-    left: 45%;
-    background-color: rgb(230, 230, 230);
-    font-size: 1.6em;
-    padding: 0.5em;
-}
-	
-
-/*footer*/
-footer{
-	clear: both;
-	background-color: #eeeeee;
-    min-height: 100px;
-    line-height: 100px;
-	position:relative;
-}
-
-#logo-footer{
-	max-width: 80px;
-	position:absolute;
-	left: calc(50% - 40px);
-	top: -40px;
-}
-
-footer p{
-	text-align:center;
-}
-
-/*Gateway page*/
-.page-excerpt{
-	clear:left;
-	padding-top:1em;
-}
-
-.gateway{
-	float: left;
-	margin-right:1.5em;
-}
-
-#content{
-	float:left;
-	width:75%;
-	margin-bottom:4em;
 }
