@@ -272,7 +272,7 @@ footer p{
 	border-radius:50%;
 }
 
-.childTitle{
+.childTitle a{
 	color: #1a5b72;
 	text-decoration:none;
 }
