@@ -151,6 +151,11 @@ footer{
 	top: -40px;
 }
 
+#footer-nav{
+	padding-top: 1.5em;
+   	text-align: center;
+}
+
 #footer-nav > li {
     display: inline-block; 
 	width:17%;	  
@@ -170,6 +175,7 @@ footer{
 
 footer p{
 	text-align:center;
+	color: #d7dee3;
 }
 
 /* Home specific */
