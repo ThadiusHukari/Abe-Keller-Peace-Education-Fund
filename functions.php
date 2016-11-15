@@ -28,7 +28,7 @@ function get_child_pages() {
 		
 		echo '<article id="page-excerpt-'.$childID.'" class="page-excerpt">';
 		echo '<img src=" '.$childImg. '" class="gateway">';
-		echo '<h3><a href="'.$childPermalink.'">'.$childTitle.'</a></h3>';
+		echo '<h3 class="childTitle"><a href="'.$childPermalink.'">'.$childTitle.'</a></h3>';
 		echo '<p>'.$childExcerpt.' <a href="'.$childPermalink.'"></a></p>';
 		echo '</article>';
         
