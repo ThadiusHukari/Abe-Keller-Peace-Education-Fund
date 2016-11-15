@@ -165,18 +165,21 @@ a:hover, a:focus {
     
 }
 
-#navigation-items li a {
-	color: #d7dee3;
-    text-decoration: none;
-}
-
 #navigation-items > li:hover {
 	background-color: #d7dee3; 
 	color: #db5959;
 }
 
-#navigation-items li a:hover {
+#navigation-items > ul li a {
+	color: #d7dee3;
+    text-decoration: none;
+	display:block;
+	padding: 12px 0;
+}
+
+#navigation-items > ul li a:hover {
 	color: #db5959;
+	background-color:#d7dee3;
 }
 
 #navigation-items > li > ul {
