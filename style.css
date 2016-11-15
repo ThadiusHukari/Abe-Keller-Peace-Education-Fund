@@ -160,9 +160,7 @@ a:hover, a:focus {
 	color: #d7dee3;
     position: relative;
 	z-index:999;
-	width:16%;
-	padding: 0.7em;
-    
+	width:16%;    
 }
 
 #navigation-items > li a {
@@ -185,7 +183,6 @@ a:hover, a:focus {
     min-width: 160px;
 	color: #d7dee3;
 	margin-left: 0;
-	padding: 0.5em;
 }
 
 #navigation-items > li:hover > ul {
