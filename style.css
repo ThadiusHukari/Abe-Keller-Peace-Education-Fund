@@ -173,7 +173,7 @@ a:hover, a:focus {
 
 #navigation-items > li:hover {
 	background-color: #d7dee3; 
-	color: #d7dee3;
+	color: #db5959;
 }
 
 #navigation-items a:hover {
@@ -186,6 +186,8 @@ a:hover, a:focus {
     background-color: #1a5b72;
     min-width: 160px;
 	color: #d7dee3;
+	margin-left: 0;
+	padding: 0.5em;
 }
 
 #navigation-items > li:hover > ul {
