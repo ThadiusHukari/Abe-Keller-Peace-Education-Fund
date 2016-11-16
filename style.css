@@ -51,7 +51,7 @@ p{
 /*headings styles*/
 h1{
 	margin-top:0.5em;
-	font-size:1.9em;
+	font-size:1.875em;
 	color: #1a5b72;
 }
 
@@ -101,6 +101,7 @@ a:hover, a:focus {
 
 #navigation-items > li a {
 	color: #d7dee3;
+	font-size:1.1875em;
     text-decoration: none;
 	display:block;
 	padding: 12px 8px;
@@ -178,6 +179,7 @@ footer{
 
 #footer-nav > li a {
 	color: #d7dee3;
+	font-size:1.375em;
     text-decoration: none;
 	display:block;
 }
@@ -191,6 +193,7 @@ footer{
 footer p{
 	text-align:center;
 	color: #d7dee3;
+	font-size:1.125em;
 }
 
 /* Home specific */
@@ -200,14 +203,15 @@ footer p{
     position: relative;
     top: -90px;
     left: 45%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(215, 222, 227, 0.7);
     font-size: 1.6em;
     padding: 0.5em;
 }
 
 #content.seo{
     max-width: 580px;
-    margin: 1em auto;
+    margin: 0 auto;
+	padding: 45px 0;
 	float: none;
 }
 
@@ -223,6 +227,7 @@ footer p{
 	position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+	padding-bottom:25px;
 	
 }
 
@@ -243,9 +248,9 @@ footer p{
 }
 
 .home .widget a h2{
-	margin: 0 8px;
+	padding-bottom: 16px;
 	color: #1a5b72;
-	font-size: 2.2em;
+	font-size: 2.1875em;
 }
 
 .home .widget p{
