@@ -305,7 +305,7 @@ footer p{
 	width: 80%;
 }
 
-.wpcf7 input [type="submit"]{
+.wpcf7 input[type="submit"]{
 	width: auto;
 }
 
