@@ -296,9 +296,17 @@ footer p{
 	margin-top:1.5em;
 }
 
+.wpcf7 label{
+	font-size:0.8em;
+}
+
 .wpcf7 input, .wpcf7 textarea{
-	padding: 0.5;
+	padding: 0.5em;
 	width: 80%;
+}
+
+.wpcf7 input [type="submit"]{
+	width: auto;
 }
 
 
