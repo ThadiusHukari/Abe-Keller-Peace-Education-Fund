@@ -44,7 +44,7 @@ p{
 
 #content{
 	float:left;
-	width:75%;
+	width:70%;
 	margin-bottom:2em;
 }
 
@@ -155,7 +155,7 @@ a:hover, a:focus {
 footer{
 	clear: both;
 	background-color: #1a5b72;;
-    min-height: 60px;
+    height: 176px;
     line-height: 60px;
 	position:relative;
 }
@@ -251,6 +251,7 @@ footer p{
 	padding-bottom: 16px;
 	color: #1a5b72;
 	font-size: 2.1875em;
+	margin: 0;
 }
 
 .home .widget p{
@@ -288,6 +289,17 @@ footer p{
 }
 
 
+
+/*Apply form*/
+
+.wpcf7{
+	margin-top:1.5em;
+}
+
+.wpcf7 input, .wpcf7 textarea{
+	padding: 0.5;
+	width: 80%;
+}
 
 
 
