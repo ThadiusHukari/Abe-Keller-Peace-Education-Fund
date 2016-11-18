@@ -152,6 +152,10 @@ a:hover, a:focus {
 	color: #1a5b72;
 }
 
+#sidebar-item li.current_page_item a{
+	font-weight:bold;
+}
+
 /*footer*/
 footer{
 	clear: both;
