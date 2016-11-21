@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <!-- Begin JavaScript for Flexslider - Woohoo Themes -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.flexslider.js"></script>
-	
-	<script type="text/javascript" charset="utf-8">
-	$(window).load(function() {
-	    $('.flexslider').flexslider();
-	});
-	</script>
-     <!-- End JavaScript for Flexslider - Woohoo Themes -->
-	
-	
-	
     <title><?php get_my_title_tag(); ?></title>
     
     <!-- Begin Meta - Pulls from the pages Except Field -->
@@ -35,10 +20,20 @@
 <body <?php body_class(); ?>>
 
     <div id="header">
-            
-	<!--Begin Navigation-->
+
     <a href="<?php bloginfo('url'); ?>" class="logo"><img src=<?php echo get_template_directory_uri(); ?>/images/logo.png alt="<?php bloginfo('name'); ?>" id="logo" /></a>
+        
     <h1>Abe Keller Peace Education Fund</h1>
+    <nav id="utilities">
+        <div class="utility" style="width: 65%;">
+            <a href="#"><img style="width:38px; height:28px;" src="images/mail.jpg" alt="mail icon">join the mailing list</a>
+        </div>
+        <div class="utility" style="width: 35%;">
+            <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img style="width: 22px; height: 38px;" src="images/facebook.jpg">facebook</a>
+        </div>
+    </nav>
+        
+    <!--Begin Primary Navigation-->  
     <nav id="nav-main">
         <?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
             'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
