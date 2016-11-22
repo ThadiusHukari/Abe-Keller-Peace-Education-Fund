@@ -17,9 +17,11 @@
 <!-- End Content -->
 
 <!-- Apply & Donate Buttons -->
-<a href="http://www.abekeller.tzaccara.com/grants/apply/" class="alignright"><img src="http://www.abekeller.tzaccara.com/wp-content/themes/abekeller/images/apply_button.png" alt="apply" id="apply" /></a>
+<div clas="buttons">
+<a class="button" href="http://www.abekeller.tzaccara.com/grants/apply/">Apply</a>
 
-<a href="http://www.abekeller.tzaccara.com/donate/" class="alignright"><img src="http://www.abekeller.tzaccara.com/wp-content/themes/abekeller/images/donate_button.png" alt="donate" id="donate" /></a>
+<a class="button" href="http://www.abekeller.tzaccara.com/donate/">Donate</a>
+</div>
 
 <!--Get Sidebar Function-->
 <?php get_sidebar(); ?>

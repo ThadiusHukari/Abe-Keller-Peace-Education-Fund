@@ -8,6 +8,7 @@ Version: 1.0
 
 /* TO DO List
     get slug for utility list-update
+    update the home page to catch the excepts
 */
 
 
@@ -44,12 +45,14 @@ body{
 
 p{
 	margin-bottom:0.5em;
+    font-weight: 400; 
 }
 
 #content{
 	float:left;
-	width:70%;
-	margin-bottom:2em;
+	width:81.25%;
+	margin-bottom: 2em;
+    margin-right: 1.041%; 
 }
 
 /*headings styles*/
@@ -57,6 +60,7 @@ h1{
 	margin-top:0.5em;
 	font-size:1.875em;
 	color: #1a5b72;
+    font-weight: 400; 
 }
 
 h2{
@@ -64,6 +68,7 @@ h2{
 	font-size:2.2em;
 	margin-top:1em;
 	margin-bottom:0.5em;
+    font-weight: 400; 
 }
 
 h3{
@@ -100,6 +105,7 @@ a:hover, a:focus {
 #header h1{
     width: 43.75%; 
     display: inline; 
+    font-weight: 400; 
 }
 
 #utilities{
@@ -136,6 +142,7 @@ a:hover, a:focus {
     color: #1a5b72;
     padding-left: .3%;
     vertical-align: bottom; 
+    font-weight: 300; 
 }
 
 #utilities:after{
@@ -171,6 +178,7 @@ a:hover, a:focus {
 	display:block;
 	padding: 12px 8px;
 	text-transform:lowercase;
+    font-weight: 400; 
 }
 
 #navigation-items > li a:hover,
@@ -216,11 +224,12 @@ a:hover, a:focus {
 /* primary sidebar - right column */
 #sidebar {
     float: right;
-    width: 23%;
+    width: 14.58%; /*adjusted size to fit in grid better*/
 	background-color:#d7dee3;
 	line-height:2em; 
 	border-radius: 0 25px 0 25px;
 	padding: 0.5em;
+    margin-bottom: 1.0416%; 
 }
 
 #sidebar a{
@@ -238,7 +247,11 @@ a:hover, a:focus {
 }
 
 #sidebar li.current_page_item a{
-	font-weight:bold;
+	font-weight:600;
+}
+
+#sidebar:after{
+    clear: both; 
 }
 
 /*footer*/
@@ -398,11 +411,43 @@ footer p{
 	width: auto;
 }
 
+/*button styles*/
+.button {
+    max-width: 140px; 
+    width: 14.58%; 
+    background-color: #1a5b72;
+    border: 3px; 
+    border-color: #1a5b72;
+    border-style: solid;
+    float: right;
+    margin-bottom: 10px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border-radius: 14px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    text-align: center;
+    display: inline-block; 
+    text-decoration: none !important; 
+    color: #d7dee3 !important;
+    text-align: center; 
+    font-size: 1.2em; 
+    vertical-align: center; 
+    padding-top: 5px; 
+    padding-bottom:5px; 
+}
 
+.button:hover{
+    background-color: white; 
+    color: #1a5b72 !important;
+    font-weight: 600;  
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
 
-
-
-
+.buttons:after{
+    clear: both; 
+}
 
 /* =WordPress Core
 -------------------------------------------------------------- */
