@@ -24,6 +24,9 @@ a img{
 ul{
 	list-style:none;
 }
+article ul{
+	list-style: inside;
+}
 
 /*General style*/
 html{
