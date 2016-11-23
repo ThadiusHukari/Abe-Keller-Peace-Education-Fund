@@ -39,17 +39,16 @@
             'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
     </nav>
 	<!--End Navigation-->
-    
-    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
-            
+                
     </div>
     
 
 
     <!--Begin Content-->
     <div id="middle">
+     <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
