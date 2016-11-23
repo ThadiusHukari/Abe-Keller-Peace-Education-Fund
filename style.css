@@ -66,7 +66,6 @@ h1{
 h2{
 	color: #1a5b72;
 	font-size:2.2em;
-	margin-top:1em;
 	margin-bottom:0.5em;
     font-weight: 400; 
 }
@@ -92,6 +91,7 @@ a:hover, a:focus {
 #header{
     height: 140px; 
     margin-top: 25px; 
+	margin-bottom: 2em;
 }
 
 #logo{
