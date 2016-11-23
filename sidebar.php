@@ -29,7 +29,7 @@
         
 	
         <?php if(!(is_page( ))) : // if we are not in pages... ?>
-			<h3 class="sub-navigation-title">Blog</h3>
+			<h3 class="sub-navigation-title">News</h3>
 			<ul class="sub-navigation-items">
 				<!--List Latest Posts-->
 	        <?php $args = array( 'numberposts' => '5' );

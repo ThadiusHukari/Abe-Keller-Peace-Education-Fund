@@ -252,6 +252,7 @@ a:hover, a:focus {
 
 #sidebar li.current_page_item a{
 	font-weight:600;
+	font-style: italic;
 }
 
 #sidebar:after{
