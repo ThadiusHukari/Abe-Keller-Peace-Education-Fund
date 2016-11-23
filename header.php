@@ -46,9 +46,5 @@
 
     <!--Begin Content-->
     <div id="middle">
-     <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
+    <?php if ( function_exists( 'breadcrumb_trail' ) ) breadcrumb_trail(); ?>
 </div>
