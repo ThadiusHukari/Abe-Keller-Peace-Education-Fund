@@ -3,6 +3,8 @@
 
 	<!--Begin Flexslider-->
     <?php do_action('slideshow_deploy', '127'); ?>
+    <div class="herobox"><span>Welcome</span> to<br>
+        the Abe Keller Peace Education Fund</div>
     <!--End Flexslider-->
     
     <!-- START CONTENT -->
@@ -39,8 +41,6 @@
                     <p>Ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper</p>
                     </a>
                 </div>
-     
-
-
+    
 <!--Get Footer Function-->
 <?php get_footer(); ?> 

@@ -6,9 +6,10 @@ Description: Theme for Abe Keller Peace Education FUNd
 Version: 1.0
 */
 
-/* TO DO List
+/* Alycia's TO DO List
     get slug for utility list-update
     update the home page to catch the excepts
+    update the icons for mail and for facebook 
 */
 
 
@@ -37,10 +38,13 @@ html{
 body{
 	max-width:960px;
 	margin:0 auto;
-	background-image:url(images/dove.png);
-	background-repeat:no-repeat;
-	background-position: 70% 130%;
-	
+}
+
+#background{
+    position:absolute; 
+    z-index: -1; 
+    bottom: 0px; 
+    left: 200px; 
 }
 
 p{
@@ -300,14 +304,30 @@ footer p{
 
 /* Home specific */
 
-.slideshow_container::after {
-    content: "Welcolme to Abe Keller Peace Education Fund";
+.herobox{
+    position: absolute;
+    z-index: 2;
     position: relative;
-    top: -90px;
-    left: 45%;
+    top: -150px;
+    left: 40%;
+    height: auto;  
     background-color: rgba(215, 222, 227, 0.7);
     font-size: 1.6em;
-    padding: 0.5em;
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-top: .5em; 
+    padding-bottom:.5em; 
+    text-align: right; 
+    font-weight: 200; 
+    font-size: 1.75em; 
+    max-width: 460px; 
+    width: 48%; 
+    line-height: 1em; 
+}
+
+.herobox span{
+    font-weight: 400;
+    color: #1a5b72;
 }
 
 #content.seo{

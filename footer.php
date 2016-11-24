@@ -1,9 +1,10 @@
  </div>
     <!--End Content-->
-	
-    
-    
+
     <footer>
+        
+    <img id="background" src=<?php echo get_template_directory_uri(); ?>/images/dove.png alt="large dove background"/>
+        
     <img src=<?php echo get_template_directory_uri(); ?>/images/logo.png alt="<?php bloginfo('name'); ?>" id="logo-footer"/>
 
 	
