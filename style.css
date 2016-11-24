@@ -25,10 +25,6 @@ a img{
 ul{
 	list-style:none;
 }
-article ul{
-	list-style: inside;
-	margin-bottom: 0.5em;
-}
 
 /*General style*/
 html{
@@ -49,6 +45,7 @@ body{
     z-index: -1; 
     bottom: 0px; 
     left: 200px; 
+    display: block; 
 }
 
 p{
@@ -59,7 +56,7 @@ p{
 #content{
 	float:left;
 	width:81.25%;
-	margin-bottom: 4em;
+	margin-bottom: 2em;
     margin-right: 1.041%; 
 }
 
@@ -74,6 +71,7 @@ h1{
 h2{
 	color: #1a5b72;
 	font-size:2.2em;
+	margin-top:1em;
 	margin-bottom:0.5em;
     font-weight: 400; 
 }
@@ -97,9 +95,8 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 110px; 
+    height: 140px; 
     margin-top: 25px; 
-	margin-bottom: 2em;
 }
 
 #logo{
@@ -228,7 +225,6 @@ a:hover, a:focus {
     display: block;
 }
 
-
 /* primary sidebar - right column */
 #sidebar {
     float: right;
@@ -256,7 +252,6 @@ a:hover, a:focus {
 
 #sidebar li.current_page_item a{
 	font-weight:600;
-	font-style: italic;
 }
 
 #sidebar:after{
@@ -344,7 +339,7 @@ footer p{
 
 .ctacontainer{
 	max-width:960px;
-	margin:32px auto 4em;
+	margin:32px auto;
 	float: left;
 	position:relative;
 }
@@ -472,6 +467,44 @@ footer p{
 
 .buttons:after{
     clear: both; 
+}
+
+/*Mobile Styles*/
+
+@media only screen and (max-width: 380px){
+    
+    #background{
+        display: none; 
+    }
+    
+    #logo{
+        float: none;
+        padding-left: 31.5%; 
+    }
+    #header h1{
+        display:none; 
+    }
+    
+    .slideshow_container{
+        display: none; 
+    }
+    
+    .herobox{
+        display: none; 
+    }
+    
+    #utilities{
+        width: 100%; 
+    }
+    
+    #sidebar{
+        display: none; 
+    }
+    
+    #footer{
+        height: 100%; 
+        
+    }
 }
 
 /* =WordPress Core
