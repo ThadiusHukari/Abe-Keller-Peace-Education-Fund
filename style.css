@@ -25,6 +25,10 @@ a img{
 ul{
 	list-style:none;
 }
+article ul{
+	list-style: inside;
+	margin-bottom: 0.5em;
+}
 
 /*General style*/
 html{
@@ -55,7 +59,7 @@ p{
 #content{
 	float:left;
 	width:81.25%;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
     margin-right: 1.041%; 
 }
 
@@ -70,7 +74,6 @@ h1{
 h2{
 	color: #1a5b72;
 	font-size:2.2em;
-	margin-top:1em;
 	margin-bottom:0.5em;
     font-weight: 400; 
 }
@@ -94,8 +97,9 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 140px; 
+    height: 110px; 
     margin-top: 25px; 
+	margin-bottom: 2em;
 }
 
 #logo{
@@ -252,6 +256,7 @@ a:hover, a:focus {
 
 #sidebar li.current_page_item a{
 	font-weight:600;
+	font-style: italic;
 }
 
 #sidebar:after{
@@ -339,7 +344,7 @@ footer p{
 
 .ctacontainer{
 	max-width:960px;
-	margin:32px auto;
+	margin:32px auto 4em;
 	float: left;
 	position:relative;
 }

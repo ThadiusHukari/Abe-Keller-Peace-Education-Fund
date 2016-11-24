@@ -29,11 +29,20 @@
         
 	
         <?php if(!(is_page( ))) : // if we are not in pages... ?>
-			<h3 class="sub-navigation-title">Blog</h3>
+			<h3 class="sub-navigation-title">News</h3>
 			<ul class="sub-navigation-items">
-				<!--List Categories Function-->
-				<?php wp_list_categories(array('title_li' => __(''))); //...list the categories with no title
-				    ?>
+				<!--List Latest Posts-->
+	        <?php $args = array( 'numberposts' => '5' );
+				  $recent_posts = wp_get_recent_posts( $args );
+				  foreach( $recent_posts as $recent ){
+				  echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent[		"post_title"].'</a> </li> ';
+	}
+	wp_reset_query();?>
+                    
+                    
+                    
+                    
+                    
 	<?php endif; ?> 
 				
 			</ul>
