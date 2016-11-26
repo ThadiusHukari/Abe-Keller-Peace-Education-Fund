@@ -6,14 +6,6 @@ Description: Theme for Abe Keller Peace Education FUNd
 Version: 1.0
 */
 
-/* Alycia's TO DO List
-    get slug for utility list-update
-    update the home page to catch the excepts
-    update the icons for mail and for facebook 
-*/
-
-
-
 /*Resets*/
 * {
 	margin: 0;
@@ -469,20 +461,106 @@ footer p{
     clear: both; 
 }
 
+#menubtn{
+    display: none; 
+}
+
+#mobiledove{
+    display: none; 
+}
+
 /*Mobile Styles*/
 
 @media only screen and (max-width: 380px){
     
+    html{
+        margin-top:0; 
+    }
+    
+    #mobiledove{
+        display:block; 
+        position:absolute; 
+        z-index: -2; 
+    }
+    
+    #header{
+        margin:0; 
+    }
+    
+    body{
+        margin: 0; 
+    }
+    
     #background{
         display: none; 
     }
-    
+    #content{
+        position: static; 
+    }
     #logo{
         float: none;
-        padding-left: 31.5%; 
+        display:block;
+        margin:auto; 
+        padding-top: 6px; 
+        z-index:1; 
     }
     #header h1{
         display:none; 
+    }
+    
+    #utilities{
+        margin: 0; 
+        z-index: 1; 
+    }
+    
+    /* Nav Styles*/
+    
+    #navigation{
+        border-radius: 0px;  
+        position: static;
+        background-color: #1a5b72; 
+    }
+    
+    #menubtn{
+        display: block;
+        background-color: #1a5b72; 
+        color: white; 
+        width: 100%; 
+        border: none; 
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400px; 
+        padding: 12px 8px;
+        font-size:1.1875em;
+        margin-left: 1px; 
+    }
+    
+    #nav-main{
+        padding-left: 0px; 
+        display: none; 
+        overflow: hidden; 
+        margin-left: 1px; 
+    }
+    
+    #navigation ul li ul.sub-menu{
+        display: block; 
+        position: relative;
+        padding-left: 16px; 
+        background-color: #1a5b72; 
+    }
+    
+    #navigation ul li ul.sub-menu a{
+        color: white; 
+        background-color: #1a5b72;
+    }
+    
+    #navigation-items > li {
+	    width:100%;   
+        position:relative;
+    }
+    
+    #navigation-items > li a{
+	    color: white; 
+        background-color: #1a5b72;
     }
     
     .slideshow_container{

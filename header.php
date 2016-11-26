@@ -19,6 +19,9 @@
 <body <?php body_class(); ?>>
 
     <div id="header">
+        
+    <img id="mobiledove" src="<?php echo get_template_directory_uri(); ?>/images/mobiledove.png"/>
+                
     <a href="<?php bloginfo('url'); ?>" class="logo"><img src=<?php echo get_template_directory_uri(); ?>/images/logo.png alt="<?php bloginfo('name'); ?>" id="logo" /></a>
         
     <h1>Abe Keller Peace Education Fund</h1>
@@ -29,13 +32,28 @@
         <div class="utility" style="width: 35%;">
             <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/facebook.png alt="facebook f logo"/>facebook</a>
         </div>
+        
     </nav>
         
     <!--Begin Primary Navigation-->  
+        
+        
+    <button id="menubtn" onclick="myMenu()">&#9776; menu</button>
     <nav id="nav-main">
         <?php wp_nav_menu( array ('theme_location' => 'main-menu', 'container'=> 'div', 'container_id' => 'navigation',
             'items_wrap' => '<ul id="navigation-items" class=%2$s">%3$s</ul>', )); ?>
     </nav>
+    
+    <script>
+        function myMenu() {
+            var x = document.getElementById('nav-main');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+            }
+        }
+    </script>
 	<!--End Navigation-->  
     </div>
     <!--Begin Content-->
