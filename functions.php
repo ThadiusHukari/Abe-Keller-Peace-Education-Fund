@@ -73,9 +73,34 @@ function get_my_title_tag(){
     echo ' | '; //seperator
     echo 'Seattle, WA'; 
 }
+
+// Get Calls to Action 
+function get_ctas($atts) {
+	
+	$myPostID = intval($atts['id']); // sets the id to pass
+	
+	$myPosting = get_post($myPostID); // gets the post of id passed
+	
+	$caseTitle = $myPosting->post_title; // get title
+	$caseExcerpt = $myPosting->post_excerpt; // get excerpt
+	$caseImage = get_the_post_thumbnail($myPostID, 'thumbnail'); // get featured thumbnail
+	$caseLink = get_permalink($myPosting->ID); // get permalink
+    
+    $ctas = '<section class="ctas"><h3><a href="'.$caseLink.'">'.$caseTitle.$caseImage.'</a><p>'.$caseExcerpt.'&nbsp;</p></section>'; // write it up...
+    
+	return $ctas; // ... and return it
+}
+
+//Adds calls to action shortcode
+add_shortcode('ctas', 'get_ctas'); // create the shortcode for the function
+
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');
+
+
 // Enables excepts for pages, allows us to pull excerpt from all pages and postings
 add_post_type_support('page', 'excerpt' );
-//Register Sidedar 
+//Register Sidebar 
 register_sidebar(array (  
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget' => '</div>',
