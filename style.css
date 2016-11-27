@@ -529,7 +529,10 @@ footer p{
         border: none; 
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400px; 
-        padding: 12px 8px;
+        padding-top: 12px;
+        padding-bottom: 12px; 
+        padding-right: 65%; 
+        padding-left: 2.5%; 
         font-size:1.1875em;
         margin-left: 1px; 
     }
@@ -563,6 +566,15 @@ footer p{
         background-color: #1a5b72;
     }
     
+    .home .widget{
+        display: block;
+        width: 100%; 
+    }
+    
+    #ctaTwo{
+        display: none; 
+    }
+    
     .slideshow_container{
         display: none; 
     }
@@ -579,10 +591,29 @@ footer p{
         display: none; 
     }
     
-    #footer{
-        height: 100%; 
-        
+    footer{
+        height: auto; 
+        background-color: #1a5b72;
+        padding-bottom: 1em; 
     }
+    
+    #footer-nav > li {
+       display: block; 
+	   width:100%; 
+    }
+
+    #footer-nav > li a {
+	color: #d7dee3;
+	font-size:1em;
+    text-decoration: none;
+	display:block;
+    line-height: 2em; 
+    }
+    
+    footer p{
+        display: none; 
+    }
+
 }
 
 /* =WordPress Core
