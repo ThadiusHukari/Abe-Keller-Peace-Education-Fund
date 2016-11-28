@@ -142,6 +142,16 @@ a:hover, a:focus {
     font-weight: 300; 
 }
 
+#utltylft{
+    width:65%; 
+}
+
+#utltyrgt{
+    width:35%; 
+}
+
+
+
 #utilities:after{
     clear: both; 
 }
@@ -461,6 +471,8 @@ footer p{
     clear: both; 
 }
 
+
+/*Mobile Stuff to hide*/
 #menubtn{
     display: none; 
 }
@@ -468,6 +480,12 @@ footer p{
 #mobiledove{
     display: none; 
 }
+
+#mobilehero{
+    display: none; 
+}
+
+
 
 /*Mobile Styles*/
 
@@ -478,17 +496,31 @@ footer p{
     }
     
     #mobiledove{
+        padding-top: .25%; 
         display:block; 
-        position:absolute; 
+        position:absolute;
+        width: 99.9%; 
+        overflow: hidden; 
         z-index: -2; 
     }
     
     #header{
+        position: relative; 
         margin:0; 
+        z-index: 1; 
+        height: auto; 
     }
     
     body{
         margin: 0; 
+    }
+    
+    #middle{
+        margin: 0; 
+        overflow: hidden; 
+        position: relative;
+        height: auto; 
+        /*prevents mobile issues? maybe.*/
     }
     
     #background{
@@ -511,7 +543,20 @@ footer p{
     #utilities{
         margin: 0; 
         z-index: 1; 
+        width: 100%; 
     }
+    
+    .utility img{
+        padding-left: 1%%; 
+    }
+    
+    #utltylft{
+        width:75%; 
+    }
+
+    #utltyrgt{
+        width:25%; 
+    }/*aligns better on small page*/
     
     /* Nav Styles*/
     
@@ -525,7 +570,7 @@ footer p{
         display: block;
         background-color: #1a5b72; 
         color: white; 
-        width: 100%; 
+        width: 99.99%; /*to match the hero img*/ 
         border: none; 
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400px; 
@@ -569,6 +614,7 @@ footer p{
     .home .widget{
         display: block;
         width: 100%; 
+        height: auto; 
     }
     
     #ctaTwo{
@@ -583,12 +629,58 @@ footer p{
         display: none; 
     }
     
-    #utilities{
+    #mobilehero{
+        display: block; 
+        position: relative; 
+        margin: 1px; 
+        padding: 0; 
         width: 100%; 
+        
+    }
+    
+    #mobilehero img{
+        width: 99.99%; 
+    }
+    
+    
+    
+    #utilities{
+        width: 100%;
     }
     
     #sidebar{
         display: none; 
+    }
+    
+    .home .widget{
+        display: block; 
+        position: relative; 
+        padding-bottom: 50px; 
+        margin-right: 0px; /*previous margin created issue*/
+    }
+    
+    .home .widget img{
+        max-height: 220px; 
+        max-width: 220px; 
+        height: 56%;
+        width: 56%;
+        padding-left: 22%; 
+        padding-right: 22%; 
+        padding-bottom: 5px; 
+    }
+    
+    .home .widget a h2{
+        font-size:  1.5625em; 
+        font-weight: 600; /*semibold*/
+        text-align: center; 
+        line-height: 1em; 
+        padding-bottom: 0; 
+    }
+    
+    .home .widget p{
+        font-size: 1em;
+        padding-left: 6%; 
+        padding-right: 6%; 
     }
     
     footer{

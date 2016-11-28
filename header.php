@@ -26,10 +26,10 @@
         
     <h1>Abe Keller Peace Education Fund</h1>
     <nav id="utilities">
-        <div class="utility" style="width: 65%;">
+        <div class="utility" id="utltylft">
             <a href="join email list"><img src=<?php echo get_template_directory_uri(); ?>/images/mail.png alt="envalope graphic"/>join the mailing list</a>
         </div>
-        <div class="utility" style="width: 35%;">
+        <div class="utility" id="utltyrgt">
             <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/facebook.png alt="facebook f logo"/>facebook</a>
         </div>
         
