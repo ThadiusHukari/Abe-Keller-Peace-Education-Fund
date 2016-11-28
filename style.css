@@ -307,7 +307,6 @@ footer p{
 /* Home specific */
 
 .herobox{
-    position: absolute;
     z-index: 2;
     position: relative;
     top: -150px;
@@ -635,6 +634,7 @@ footer p{
         margin: 1px; 
         padding: 0; 
         width: 100%; 
+        z-index: 1; 
         
     }
     
@@ -642,6 +642,22 @@ footer p{
         width: 99.99%; 
     }
     
+    #mobilehero h1{
+        display: block; 
+        text-align: left; 
+        font-weight: 200; 
+        color: white; 
+        z-index: 2;
+        width: 90%;
+        margin-top: -70px; 
+        margin-left: 3%; 
+        line-height: 1em; 
+        font-size: 1.5em; 
+    }
+    
+    #mobilehero h1 span{
+        font-weight: 400;
+    }
     
     
     #utilities{

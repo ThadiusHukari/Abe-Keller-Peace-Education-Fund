@@ -9,6 +9,8 @@
 
     <div id="mobilehero">
         <img src="<?php echo get_template_directory_uri(); ?>/images/mobilehero.jpg" alt="Welcome to the Abe Keller Peace Education Fund" />
+        <h1><span>Welcome</span> to the<br>
+        Abe Keller Peace Education Fund</h1>
     </div>
     <!-- START CONTENT -->
     <div id="content" class="seo">
