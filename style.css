@@ -34,6 +34,7 @@ body{
 
 #background{
     position:absolute; 
+    overflow: hidden; 
     z-index: -1; 
     bottom: 0px; 
     left: 200px; 
@@ -267,6 +268,7 @@ footer{
     height: 176px;
     line-height: 60px;
 	position:relative;
+    margin-top: 50px;
 }
 
 #logo-footer{
@@ -305,6 +307,10 @@ footer p{
 }
 
 /* Home specific */
+
+.slideshow_container{
+    width: 99%: 
+}
 
 .herobox{
     z-index: 2;
@@ -752,7 +758,6 @@ footer p{
     }
     
     footer{
-        margin-top: 45px; 
         height: auto; 
         background-color: #1a5b72;
         padding-bottom: 1em; 
