@@ -5,6 +5,7 @@
     
     <!-- Begin Meta - Pulls from the pages Except Field -->
     <meta name="description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
+    <meta name="viewport" content="width=device-width>
     <!-- End Meta -->
 	
     <!--Begin Style-->
