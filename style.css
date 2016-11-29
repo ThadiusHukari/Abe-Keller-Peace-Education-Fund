@@ -494,6 +494,19 @@ footer p{
         margin-top:0; 
     }
     
+        
+    h2{
+        text-align: center; 
+        font-size: 2em; 
+    }
+    
+    
+    h3{
+        text-align: center; 
+        font-weight: 600; 
+        font-size: 1.5em; 
+    }
+    
     #mobiledove{
         padding-top: .25%; 
         display:block; 
@@ -522,12 +535,16 @@ footer p{
         /*prevents mobile issues? maybe.*/
     }
     
+    #content{
+        float: none; 
+        display: block; 
+        width: 99%; 
+    }
+    
     #background{
         display: none; 
     }
-    #content{
-        position: static; 
-    }
+    
     #logo{
         float: none;
         display:block;
@@ -550,14 +567,18 @@ footer p{
     }
     
     #utltylft{
-        width:75%; 
+        width:70%; 
     }
 
     #utltyrgt{
-        width:25%; 
+        width:30%; 
     }/*aligns better on small page*/
     
     /* Nav Styles*/
+
+    .button{
+        display: none; 
+    }
     
     #navigation{
         border-radius: 0px;  
@@ -610,6 +631,13 @@ footer p{
         background-color: #1a5b72;
     }
     
+        
+    #utilities{
+        width: 100%;
+    }
+    
+    /*end nav styles*/
+    
     .home .widget{
         display: block;
         width: 100%; 
@@ -659,9 +687,26 @@ footer p{
         font-weight: 400;
     }
     
+    .gateway{
+        float: none; 
+    }
     
-    #utilities{
-        width: 100%;
+        
+    .page-excerpt img{
+        max-width: 220px; 
+        max-height: 220px; 
+        width: 60%; 
+        height: 60%; 
+        display: block;
+        position: relative; 
+        padding-left: 20%; 
+        padding-right: 20%; 
+        padding-bottom: 5px; 
+    }
+    
+    .page-excerpt {
+        display: block; 
+        position: relative;
     }
     
     #sidebar{
