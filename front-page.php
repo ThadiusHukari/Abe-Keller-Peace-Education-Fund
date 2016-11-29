@@ -23,9 +23,7 @@
 	<!-- END CONTENT -->
     
     <!--Begin Wigets-->
-        
-                
-    
+    <div class="ctacontainer">
     			<div class="widget" id="ctaOne">
                     <a href="<?php bloginfo('url'); ?>/apply">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/apply_icon.png" alt="Apply now" />
@@ -46,6 +44,7 @@
                     <p>Ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper</p>
                     </a>
                 </div>
+</div>
     
 <!--Get Footer Function-->
 <?php get_footer(); ?> 
