@@ -497,14 +497,14 @@ footer p{
         
     h2{
         text-align: center; 
-        font-size: 2em; 
+        font-size: 1.5em; 
     }
     
     
     h3{
+        font-size: 1.5em; 
         text-align: center; 
         font-weight: 600; 
-        font-size: 1.5em; 
     }
     
     #mobiledove{
@@ -538,7 +538,14 @@ footer p{
     #content{
         float: none; 
         display: block; 
-        width: 99%; 
+        width: 100%; 
+    }
+    
+    #content p{
+        font-size: 1em;
+        padding-left: 6%; 
+        padding-right: 6%; 
+        margin: 8px; 
     }
     
     #background{
@@ -731,7 +738,7 @@ footer p{
     }
     
     .home .widget a h2{
-        font-size:  1.5625em; 
+        font-size:  1.5em; 
         font-weight: 600; /*semibold*/
         text-align: center; 
         line-height: 1em; 
@@ -745,6 +752,7 @@ footer p{
     }
     
     footer{
+        margin-top: 45px; 
         height: auto; 
         background-color: #1a5b72;
         padding-bottom: 1em; 
