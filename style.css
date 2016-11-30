@@ -565,7 +565,7 @@ article.post p{
 	}
 	
 	.ctacontainer img{
-		floar: left;
+		float: left;
 		margin-right:1em;
 		left: 0;
 		transform:none;
