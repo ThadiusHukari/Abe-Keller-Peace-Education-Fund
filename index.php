@@ -41,5 +41,12 @@
 <!--Get Sidebar Function-->
 <?php get_sidebar(); ?>
 
+<!-- Apply & Donate Buttons -->
+<div clas="buttons">
+<a class="button" href="http://www.abekeller.tzaccara.com/grants/apply/">Apply</a>
+
+<a class="button" href="http://www.abekeller.tzaccara.com/donate/">Donate</a>
+</div>
+
 <!--Get Footer Function-->
 <?php get_footer(); ?> 
