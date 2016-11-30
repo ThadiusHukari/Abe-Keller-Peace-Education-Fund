@@ -417,6 +417,21 @@ footer p{
 	text-decoration:none;
 }
 
+/*Destination page*/
+article.page-content img,
+.post img{
+	float: right;
+	margin-left:1.5em;
+	border-radius:50%;
+	max-width:220px;
+}
+
+/*Index*/
+.post-excerpt{
+	max-width:220px;
+	float: left;
+	margin: 1em;
+}
 
 
 /*Apply form*/

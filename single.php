@@ -20,7 +20,7 @@
 			</small>
 			<!--End Byline-->
 			
-			<?php the_post_thumbnail('large');//get the featured image ?>
+			<?php the_post_thumbnail();//get the featured image ?>
 			
 			<?php the_content(''); //get the page or posting written content ?>
 			<?php endwhile; endif; //end the loop ?>
