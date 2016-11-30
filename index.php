@@ -17,7 +17,7 @@
 		    
 		    <!--The Time, Author and Category FUNctions--> 
 		    <small>
-			Posted on <?php the_time('l, F j, Y'); ?>
+			Posted on <?php the_time('F j, Y'); ?>
 		    </small>
             
             <a href="<?php the_permalink(); ?>">
