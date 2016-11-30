@@ -30,6 +30,7 @@ html{
 body{
 	max-width:960px;
 	margin:0 auto;
+	padding: 0.5em;
 }
 
 #background{
@@ -312,7 +313,7 @@ footer p{
 /* Home specific */
 
 .slideshow_container{
-    width: 99%: 
+    width: 99%; 
 }
 
 .herobox{
@@ -448,10 +449,11 @@ article.post p{
 
 /*Index*/
 .post-excerpt{
-	max-width:220px;
+	max-width:29%;
 	float: left;
 	margin: 1em;
-	height:400px
+	height:400px;
+	position:relative;
 }
 .post-excerpt h2{
 	margin-bottom:0;
@@ -460,7 +462,10 @@ article.post p{
 .post-excerpt img{
 	border-radius:50%;
 	max-width:220px;
-	margin-top: 1em;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+	
 }
 
 
@@ -621,7 +626,7 @@ article.post p{
     }
     
     .utility img{
-        padding-left: 1%%; 
+        padding-left: 1%; 
     }
     
     #utltylft{
@@ -825,6 +830,27 @@ article.post p{
         display: none; 
     }
 
+}
+
+@media only screen and (max-width: 908px){
+	.post-excerpt{
+	max-width:45%;
+	}
+}
+
+@media only screen and (max-width: 775px){
+	.home .widget{
+	width: 100%;
+	float:none;
+	margin: 0.5em;
+	}
+	#sidebar{
+		display:none;
+	}
+	
+	#content{
+		width:100%;
+	}
 }
 
 /* =WordPress Core
