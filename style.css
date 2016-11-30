@@ -449,7 +449,7 @@ article.post p{
 
 /*Index*/
 .post-excerpt{
-	max-width:29%;
+	width:29%;
 	float: left;
 	margin: 1em;
 	height:400px;
@@ -831,10 +831,16 @@ article.post p{
 
 }
 
-@media only screen and (max-width: 908px){
+@media only screen and (max-width: 925px){
 	.post-excerpt{
-	max-width:45%;
+	width:45%;
 	border: 1px solid #eee;
+	}
+}
+
+@media only screen and (max-width: 852px){
+	.post-excerpt{
+	width:40%;
 	}
 }
 
@@ -852,6 +858,23 @@ article.post p{
 	#content{
 		width:100%;
 	}
+}
+@media only screen and (max-width: 600px){
+	.post-excerpt{
+	width:100%;
+	}
+	
+	.post-excerpt img{
+	position: relative;
+    left: 0;
+    transform: none;
+	margin: 1em;
+	}
+	
+	.post-excerpt p{
+		margin-top: 1em;
+	}
+
 }
 
 /* =WordPress Core
