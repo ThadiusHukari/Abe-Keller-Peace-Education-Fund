@@ -92,6 +92,7 @@ a:hover, a:focus {
 #header{
     height: 140px; 
     margin-top: 25px; 
+	margin-bottom: 1em;
 }
 
 #logo{
