@@ -561,7 +561,7 @@ article.post p{
 		width: 100%;
 		float:none;
 		margin: 0.5em;
-		height: 240px;
+		height: auto;
 	}
 	
 	.ctacontainer img{
@@ -600,7 +600,7 @@ article.post p{
 
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 425px){
     
     html{
         margin-top:0; 
