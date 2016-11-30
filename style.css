@@ -417,8 +417,9 @@ footer p{
 	text-decoration:none;
 }
 
-/*Destination page*/
-article.page-content img{
+/*Destination and single pages*/
+article.page-content img,
+article.post img{
 	float: right;
 	margin-left:1.5em;
 	border-radius:50%;
@@ -430,11 +431,16 @@ article.page-content img{
 	max-width:220px;
 	float: left;
 	margin: 1em;
+	height:400px
+}
+.post-excerpt h2{
+	margin-bottom:0;
 }
 
 .post-excerpt img{
 	border-radius:50%;
 	max-width:220px;
+	margin-top: 1em;
 }
 
 
