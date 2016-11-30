@@ -64,10 +64,10 @@ h1{
 h2{
 	color: #1a5b72;
 	font-size:2.2em;
-	margin-top:1em;
 	margin-bottom:0.5em;
     font-weight: 400; 
 }
+
 
 h3{
 	font-size:1.2em;
@@ -358,6 +358,10 @@ footer p{
     transform: translate(-50%, 0);
 	padding-bottom:25px;
 	
+}
+
+.ctacontainer h2{
+	margin-top:1em;
 }
 
 .home .widget{
