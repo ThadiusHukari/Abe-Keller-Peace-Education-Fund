@@ -54,6 +54,11 @@ p{
     margin-right: 1.041%; 
 }
 
+#content ul{
+	list-style:inside;
+	margin-left:2em;
+}
+
 /*headings styles*/
 h1{
 	margin-top:0.5em;
@@ -348,10 +353,6 @@ footer p{
 	float: none;
 }
 
-#content ul{
-	list-style:inside;
-}
-
 .ctacontainer{
 	max-width:960px;
 	margin:32px auto;
@@ -561,7 +562,7 @@ article.post p{
 		width: 100%;
 		float:none;
 		margin: 0.5em;
-		height: auto;
+		height: 240px;
 	}
 	
 	.ctacontainer img{
@@ -582,15 +583,16 @@ article.post p{
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
-	width:100%;
+	width:99%;
 	height:auto;
+	margin: 1em 0;
 	}
 	
 	.post-excerpt img{
 	position: relative;
     left: 0;
     transform: none;
-	margin: 1em;
+	margin: 1em 1em 1em 0;
 	float:left;
 	}
 	
@@ -833,13 +835,10 @@ article.post p{
         display: block; 
         position: relative;
     }
-    
-    #sidebar{
-        display: none; 
-    }
-    
+     
     .home .widget{
         display: block; 
+		height: auto;
         position: relative; 
         padding-bottom: 50px; 
         margin-right: 0px; /*previous margin created issue*/
@@ -859,7 +858,7 @@ article.post p{
         font-size:  1.5em; 
         font-weight: 600; /*semibold*/
         text-align: center; 
-        line-height: 1em; 
+        line-height: 1.5em; 
         padding-bottom: 0; 
     }
     
@@ -868,6 +867,12 @@ article.post p{
         padding-left: 6%; 
         padding-right: 6%; 
     }
+	
+	article.page-content img{
+		float:none;
+		display:block;
+		margin: auto;
+	}
     
     footer{
         height: auto; 
