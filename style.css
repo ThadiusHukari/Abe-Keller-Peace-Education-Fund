@@ -34,6 +34,7 @@ body{
 
 #background{
     position:absolute; 
+    overflow: hidden; 
     z-index: -1; 
     bottom: 0px; 
     left: 200px; 
@@ -141,6 +142,16 @@ a:hover, a:focus {
     vertical-align: bottom; 
     font-weight: 300; 
 }
+
+#utltylft{
+    width:65%; 
+}
+
+#utltyrgt{
+    width:35%; 
+}
+
+
 
 #utilities:after{
     clear: both; 
@@ -257,6 +268,7 @@ footer{
     height: 176px;
     line-height: 60px;
 	position:relative;
+    margin-top: 50px;
 }
 
 #logo-footer{
@@ -296,8 +308,11 @@ footer p{
 
 /* Home specific */
 
+.slideshow_container{
+    width: 99%: 
+}
+
 .herobox{
-    position: absolute;
     z-index: 2;
     position: relative;
     top: -150px;
@@ -325,7 +340,7 @@ footer p{
 #content.seo{
     max-width: 580px;
     margin: 0 auto;
-	padding: 45px 0;
+	padding: 0 0 45px ;
 	float: none;
 }
 
@@ -402,6 +417,40 @@ footer p{
 	text-decoration:none;
 }
 
+/*Destination and single pages*/
+article.page-content img,
+article.post img{
+	float: right;
+	margin-left:1.5em;
+	border-radius:50%;
+	max-width:220px;
+}
+
+article.post h2{
+	margin-bottom:0;
+}
+
+article.post p{
+	margin-top:1em;
+}
+
+
+/*Index*/
+.post-excerpt{
+	max-width:220px;
+	float: left;
+	margin: 1em;
+	height:400px
+}
+.post-excerpt h2{
+	margin-bottom:0;
+}
+
+.post-excerpt img{
+	border-radius:50%;
+	max-width:220px;
+	margin-top: 1em;
+}
 
 
 /*Apply form*/
@@ -461,6 +510,8 @@ footer p{
     clear: both; 
 }
 
+
+/*Mobile Stuff to hide*/
 #menubtn{
     display: none; 
 }
@@ -468,6 +519,12 @@ footer p{
 #mobiledove{
     display: none; 
 }
+
+#mobilehero{
+    display: none; 
+}
+
+
 
 /*Mobile Styles*/
 
@@ -477,26 +534,64 @@ footer p{
         margin-top:0; 
     }
     
+        
+    h2{
+        text-align: center; 
+        font-size: 1.5em; 
+    }
+    
+    
+    h3{
+        font-size: 1.5em; 
+        text-align: center; 
+        font-weight: 600; 
+    }
+    
     #mobiledove{
+        padding-top: .25%; 
         display:block; 
-        position:absolute; 
+        position:absolute;
+        width: 99.9%; 
+        overflow: hidden; 
         z-index: -2; 
     }
     
     #header{
+        position: relative; 
         margin:0; 
+        z-index: 1; 
+        height: auto; 
     }
     
     body{
         margin: 0; 
     }
     
+    #middle{
+        margin: 0; 
+        overflow: hidden; 
+        position: relative;
+        height: auto; 
+        /*prevents mobile issues? maybe.*/
+    }
+    
+    #content{
+        float: none; 
+        display: block; 
+        width: 100%; 
+    }
+    
+    #content p{
+        font-size: 1em;
+        padding-left: 6%; 
+        padding-right: 6%; 
+        margin: 8px; 
+    }
+    
     #background{
         display: none; 
     }
-    #content{
-        position: static; 
-    }
+    
     #logo{
         float: none;
         display:block;
@@ -511,9 +606,26 @@ footer p{
     #utilities{
         margin: 0; 
         z-index: 1; 
+        width: 100%; 
     }
     
+    .utility img{
+        padding-left: 1%%; 
+    }
+    
+    #utltylft{
+        width:70%; 
+    }
+
+    #utltyrgt{
+        width:30%; 
+    }/*aligns better on small page*/
+    
     /* Nav Styles*/
+
+    .button{
+        display: none; 
+    }
     
     #navigation{
         border-radius: 0px;  
@@ -525,11 +637,14 @@ footer p{
         display: block;
         background-color: #1a5b72; 
         color: white; 
-        width: 100%; 
+        width: 99.99%; /*to match the hero img*/ 
         border: none; 
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 400px; 
-        padding: 12px 8px;
+        padding-top: 12px;
+        padding-bottom: 12px; 
+        padding-right: 65%; 
+        padding-left: 2.5%; 
         font-size:1.1875em;
         margin-left: 1px; 
     }
@@ -563,6 +678,23 @@ footer p{
         background-color: #1a5b72;
     }
     
+        
+    #utilities{
+        width: 100%;
+    }
+    
+    /*end nav styles*/
+    
+    .home .widget{
+        display: block;
+        width: 100%; 
+        height: auto; 
+    }
+    
+    #ctaTwo{
+        display: none; 
+    }
+    
     .slideshow_container{
         display: none; 
     }
@@ -571,18 +703,117 @@ footer p{
         display: none; 
     }
     
-    #utilities{
+    #mobilehero{
+        display: block; 
+        position: relative; 
+        margin: 1px; 
+        padding: 0; 
         width: 100%; 
+        z-index: 1; 
+        
+    }
+    
+    #mobilehero img{
+        width: 99.99%; 
+    }
+    
+    #mobilehero h1{
+        display: block; 
+        text-align: left; 
+        font-weight: 200; 
+        color: white; 
+        z-index: 2;
+        width: 90%;
+        margin-top: -70px; 
+        margin-left: 3%; 
+        line-height: 1em; 
+        font-size: 1.5em; 
+    }
+    
+    #mobilehero h1 span{
+        font-weight: 400;
+    }
+    
+    .gateway{
+        float: none; 
+    }
+    
+        
+    .page-excerpt img{
+        max-width: 220px; 
+        max-height: 220px; 
+        width: 60%; 
+        height: 60%; 
+        display: block;
+        position: relative; 
+        padding-left: 20%; 
+        padding-right: 20%; 
+        padding-bottom: 5px; 
+    }
+    
+    .page-excerpt {
+        display: block; 
+        position: relative;
     }
     
     #sidebar{
         display: none; 
     }
     
-    #footer{
-        height: 100%; 
-        
+    .home .widget{
+        display: block; 
+        position: relative; 
+        padding-bottom: 50px; 
+        margin-right: 0px; /*previous margin created issue*/
     }
+    
+    .home .widget img{
+        max-height: 220px; 
+        max-width: 220px; 
+        height: 56%;
+        width: 56%;
+        padding-left: 22%; 
+        padding-right: 22%; 
+        padding-bottom: 5px; 
+    }
+    
+    .home .widget a h2{
+        font-size:  1.5em; 
+        font-weight: 600; /*semibold*/
+        text-align: center; 
+        line-height: 1em; 
+        padding-bottom: 0; 
+    }
+    
+    .home .widget p{
+        font-size: 1em;
+        padding-left: 6%; 
+        padding-right: 6%; 
+    }
+    
+    footer{
+        height: auto; 
+        background-color: #1a5b72;
+        padding-bottom: 1em; 
+    }
+    
+    #footer-nav > li {
+       display: block; 
+	   width:100%; 
+    }
+
+    #footer-nav > li a {
+	color: #d7dee3;
+	font-size:1em;
+    text-decoration: none;
+	display:block;
+    line-height: 2em; 
+    }
+    
+    footer p{
+        display: none; 
+    }
+
 }
 
 /* =WordPress Core

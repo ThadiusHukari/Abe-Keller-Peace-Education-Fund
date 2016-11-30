@@ -5,6 +5,7 @@
     
     <!-- Begin Meta - Pulls from the pages Except Field -->
     <meta name="description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
+    <meta name="viewport" content="width=device-width">
     <!-- End Meta -->
 	
     <!--Begin Style-->
@@ -26,8 +27,13 @@
         
     <h1>Abe Keller Peace Education Fund</h1>
     <nav id="utilities">
+<<<<<<< HEAD
         <div class="utility" style="width: 65%;">
             <a href="http://www.abekeller.tzaccara.com/join-email-list/"><img src=<?php echo get_template_directory_uri(); ?>/images/mail.png alt="envalope graphic"/>join the mailing list</a>
+=======
+        <div class="utility" id="utltylft">
+            <a href="join email list"><img src=<?php echo get_template_directory_uri(); ?>/images/mail.png alt="envalope graphic"/>join the mailing list</a>
+>>>>>>> origin/master
         </div>
         <div class="utility" style="width: 35%;">
             <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/facebook.png alt="facebook f logo"/>facebook</a>

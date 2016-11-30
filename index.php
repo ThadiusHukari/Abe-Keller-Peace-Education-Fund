@@ -9,6 +9,7 @@
 		<?php if ( have_posts() ): while ( have_posts()):the_post(); //start the loop?>
 		
 		<article class="post-excerpt">
+		    <!--The Post Thumbnail FUNction--> 
 		    <h2>
 			<a href="<?php the_permalink();//link to the page or posting?>">
 			<?php the_title();//get the page or posting ?> </a>
@@ -16,16 +17,13 @@
 		    
 		    <!--The Time, Author and Category FUNctions--> 
 		    <small>
-			Posted on <?php the_time('l, F j, Y'); ?> by
-			<?php the_author(); ?> in
-			<?php the_category (', '); ?> 
+			Posted on <?php the_time('F j, Y'); ?>
 		    </small>
-
-		    <!--The Post Thumbnail FUNction--> 
-		    <a href="<?php the_permalink(); ?>">
+            
+            <a href="<?php the_permalink(); ?>">
 		    <?php the_post_thumbnail( 'thumbnail' ); ?>
 		    </a>
-		    
+
 		    <!--The Except FUNction, gets the posting's except-->
 		    <?php the_excerpt(); ?>
 		    
