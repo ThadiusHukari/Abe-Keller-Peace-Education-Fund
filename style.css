@@ -543,6 +543,63 @@ article.post p{
 
 /*Mobile Styles*/
 
+@media only screen and (max-width: 925px){
+	.post-excerpt{
+	width:45%;
+	border: 1px solid #eee;
+	}
+}
+
+@media only screen and (max-width: 852px){
+	.post-excerpt{
+	width:40%;
+	}
+}
+
+@media only screen and (max-width: 775px){
+	.home .widget{
+		width: 100%;
+		float:none;
+		margin: 0.5em;
+		height: 240px;
+	}
+	
+	.ctacontainer img{
+		floar: left;
+		margin-right:1em;
+		left: 0;
+		transform:none;
+		padding-bottom:0;
+	}
+	
+	#sidebar{
+		display:none;
+	}
+	
+	#content{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.post-excerpt{
+	width:100%;
+	height:auto;
+	}
+	
+	.post-excerpt img{
+	position: relative;
+    left: 0;
+    transform: none;
+	margin: 1em;
+	float:left;
+	}
+	
+	.post-excerpt p{
+		margin-top: 1em;
+	}
+
+}
+
 @media only screen and (max-width: 380px){
     
     html{
@@ -602,6 +659,11 @@ article.post p{
         padding-right: 6%; 
         margin: 8px; 
     }
+	
+	#content.seo{
+    	margin: 1.5em auto 0;
+		padding:0;	
+	}
     
     #background{
         display: none; 
@@ -739,7 +801,7 @@ article.post p{
         color: white; 
         z-index: 2;
         width: 90%;
-        margin-top: -70px; 
+        margin-top: -80px; 
         margin-left: 3%; 
         line-height: 1em; 
         font-size: 1.5em; 
@@ -831,53 +893,7 @@ article.post p{
 
 }
 
-@media only screen and (max-width: 925px){
-	.post-excerpt{
-	width:45%;
-	border: 1px solid #eee;
-	}
-}
 
-@media only screen and (max-width: 852px){
-	.post-excerpt{
-	width:40%;
-	}
-}
-
-@media only screen and (max-width: 775px){
-	.home .widget{
-		width: 100%;
-		float:none;
-		margin: 0.5em;
-	}
-	
-	#sidebar{
-		display:none;
-	}
-	
-	#content{
-		width:100%;
-	}
-}
-@media only screen and (max-width: 600px){
-	.post-excerpt{
-	width:100%;
-	height:auto;
-	}
-	
-	.post-excerpt img{
-	position: relative;
-    left: 0;
-    transform: none;
-	margin: 1em;
-	float:left;
-	}
-	
-	.post-excerpt p{
-		margin-top: 1em;
-	}
-
-}
 
 /* =WordPress Core
 -------------------------------------------------------------- */
