@@ -101,7 +101,7 @@ add_filter('widget_text','do_shortcode');
 // Enables excepts for pages, allows us to pull excerpt from all pages and postings
 add_post_type_support('page', 'excerpt' );
 //Register Sidebar 
-register_sidebar(array (  
+register_sidebars(2, array (  
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget' => '</div>',
     'before_title' => '<h2>',
