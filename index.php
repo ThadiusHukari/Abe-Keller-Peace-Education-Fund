@@ -16,9 +16,9 @@
 		    </h2>
 		    
 		    <!--The Time, Author and Category FUNctions--> 
-		    <small>
+		    <!--<small>
 			Posted on <?php the_time('F j, Y'); ?>
-		    </small>
+		    </small>-->
             
             <a href="<?php the_permalink(); ?>">
 		    <?php the_post_thumbnail( 'thumbnail' ); ?>

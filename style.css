@@ -465,7 +465,6 @@ article.post p{
 	position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-	
 }
 
 
@@ -835,15 +834,17 @@ article.post p{
 @media only screen and (max-width: 908px){
 	.post-excerpt{
 	max-width:45%;
+	border: 1px solid #eee;
 	}
 }
 
 @media only screen and (max-width: 775px){
 	.home .widget{
-	width: 100%;
-	float:none;
-	margin: 0.5em;
+		width: 100%;
+		float:none;
+		margin: 0.5em;
 	}
+	
 	#sidebar{
 		display:none;
 	}
