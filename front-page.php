@@ -28,20 +28,20 @@
                     <a href="<?php bloginfo('url'); ?>/apply">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/apply_icon.png" alt="Apply now" />
                    	<h2>Apply for a grant</h2>
-                    <p>Ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae</p>
+                    <p>Any individual or group may seek financial assistance for a peace or justice education project. The Board may also solicit proposals consistent with its peace and justice education objectives</p>
                     </a>
                 </div>
        		 	<div class="widget" id="ctaTwo">
                     <a href="<?php bloginfo('url'); ?>/about-the-fund"><img src="<?php echo get_template_directory_uri();?>/images/abeKeller.png" alt="About the Fund" />
                    	<h2>About the Fund</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper</p>
+                    <p>The Abe Keller Peace Education Fund is a non-profit organization, achieving 501C(3) status in 2000. The Fund plays a unique role of providing financial support for peace and justice education in the Pacific Northwest</p>
                     </a>
                 </div>
                 <div class="widget" id="ctaThree">
                     <a href="<?php bloginfo('url'); ?>/donate">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/donate_icon.png" alt="Donate" />
                     <h2>Donate now</h2>
-                    <p>Ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper</p>
+                    <p>Please help support the promotion of peace and justice by making a tax-deductible donation to the Abe Keller Peace Education Fund today!</p>
                     </a>
                 </div>
 </div>
