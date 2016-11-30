@@ -419,7 +419,7 @@ footer p{
 
 /*Destination page*/
 article.page-content img,
-.post img{
+{
 	float: right;
 	margin-left:1.5em;
 	border-radius:50%;
@@ -431,6 +431,11 @@ article.page-content img,
 	max-width:220px;
 	float: left;
 	margin: 1em;
+}
+
+.post-excerpt img{
+	border-radius:50%;
+	max-width:220px;
 }
 
 
