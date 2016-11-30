@@ -66,12 +66,14 @@ h2{
 	font-size:2.2em;
 	margin-bottom:0.5em;
     font-weight: 400; 
+	line-height: 1;
 }
 
 
 h3{
 	font-size:1.2em;
 	margin-bottom:0.5em;
+	line-height: 1;
 }
 
 /*links styles*/
@@ -342,6 +344,10 @@ footer p{
     margin: 0 auto;
 	padding: 0 0 45px ;
 	float: none;
+}
+
+#content ul{
+	list-style:inside;
 }
 
 .ctacontainer{
