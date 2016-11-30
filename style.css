@@ -340,7 +340,7 @@ footer p{
 #content.seo{
     max-width: 580px;
     margin: 0 auto;
-	padding: 45px 0;
+	padding: 0 0 45px ;
 	float: none;
 }
 
@@ -433,7 +433,6 @@ article.post h2{
 article.post p{
 	margin-top:1em;
 }
-
 
 
 /*Index*/
