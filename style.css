@@ -454,12 +454,15 @@ article.post p{
 
 /*Index*/
 .post-excerpt{
-	width:29%;
+	width:28%;
 	float: left;
-	margin: 1em;
+	margin: 0.5em;
 	height:400px;
 	position:relative;
+	border: 1px solid #eee;
+    padding: .5em;
 }
+
 .post-excerpt h2{
 	margin-bottom:0;
 }
