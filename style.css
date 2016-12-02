@@ -600,6 +600,9 @@ article.post p{
 	#sidebar{
 		display:none;
 	}
+	.buttons{
+		display:none;
+	}
 	
 	#content{
 		width:100%;
@@ -726,9 +729,6 @@ article.post p{
         z-index: 1; 
         height: auto; 
     }
-	#middle{
-	background-color:#fff;
-	}
     
     body{
         margin: 0; 
