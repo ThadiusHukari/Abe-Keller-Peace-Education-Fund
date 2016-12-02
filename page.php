@@ -24,7 +24,7 @@
 ?>
 
 <!-- Apply & Donate Buttons -->
-<div clas="buttons">
+<div class="buttons">
 <a class="button" href="http://www.abekeller.tzaccara.com/grants/apply/">Apply</a>
 
 <a class="button" href="http://www.abekeller.tzaccara.com/donate/">Donate</a>
