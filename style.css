@@ -50,7 +50,7 @@ p{
 #content{
 	float:left;
 	width:81.25%;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
     margin-right: 1.041%;
     padding-top: 10px; /*added space between title and breadcrumbs*/
 }
@@ -745,7 +745,8 @@ article.post p{
     #content{
         float: none; 
         display: block; 
-        width: 100%; 
+        width: 100%;
+        margin-bottom: 1em;
     }
     
     #content p{
@@ -762,6 +763,10 @@ article.post p{
     
     #background{
         display: none; 
+    }
+    
+    #breadcrumbs {
+        display: none;
     }
     
     #logo{
