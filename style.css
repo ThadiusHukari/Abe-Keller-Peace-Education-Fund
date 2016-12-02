@@ -97,9 +97,9 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 135px; /*reduced 140 to 135*/
+    height: 140px; 
     margin-top: 25px; 
-	/*margin-bottom: 1em;*/
+	margin-bottom: 1em;
 }
 
 #logo{
@@ -536,15 +536,6 @@ article.post p{
 }
 
 
-
-/* RESPONSIVE MEDIA QUERIES */
-
-
-
-/* TABLET */
-
-
-
 /*Mobile Stuff to hide*/
 #menubtn{
     display: none; 
@@ -570,14 +561,19 @@ article.post p{
 
 @media only screen and (max-width: 925px){
 	.post-excerpt{
-	width:45%;
-	border: 1px solid #eee;
+		width:45%;
+		border: 1px solid #eee;
 	}
 }
 
 @media only screen and (max-width: 852px){
 	.post-excerpt{
-	width:40%;
+		width:40%;
+	}
+}
+@media only screen and (max-width: 845px){
+	.buttons{
+		display:none;
 	}
 }
 
@@ -726,9 +722,6 @@ article.post p{
         z-index: 1; 
         height: auto; 
     }
-	#middle{
-	background-color:#fff;
-	}
     
     body{
         margin: 0; 
