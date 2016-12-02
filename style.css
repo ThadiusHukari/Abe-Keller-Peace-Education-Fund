@@ -51,7 +51,8 @@ p{
 	float:left;
 	width:81.25%;
 	margin-bottom: 2em;
-    margin-right: 1.041%; 
+    margin-right: 1.041%;
+    padding-top: 10px; /*added space between title and breadcrumbs*/
 }
 
 #content ul{
@@ -96,9 +97,9 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 140px; 
+    height: 135px; /*reduced 140 to 135*/
     margin-top: 25px; 
-	margin-bottom: 1em;
+	/*margin-bottom: 1em;*/
 }
 
 #logo{
@@ -533,6 +534,15 @@ article.post p{
 .buttons:after{
     clear: both; 
 }
+
+
+
+/* RESPONSIVE MEDIA QUERIES */
+
+
+
+/* TABLET */
+
 
 
 /*Mobile Stuff to hide*/
