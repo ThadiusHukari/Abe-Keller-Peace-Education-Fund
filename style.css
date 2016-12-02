@@ -51,8 +51,7 @@ p{
 	float:left;
 	width:81.25%;
 	margin-bottom: 2em;
-    margin-right: 1.041%;
-    padding-top: 10px; /*added space between title and breadcrumbs*/
+    margin-right: 1.041%; 
 }
 
 #content ul{
@@ -97,9 +96,9 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 135px; /*reduced 140 to 135*/
+    height: 140px; 
     margin-top: 25px; 
-	/*margin-bottom: 1em;*/
+	margin-bottom: 1em;
 }
 
 #logo{
@@ -536,15 +535,6 @@ article.post p{
 }
 
 
-
-/* RESPONSIVE MEDIA QUERIES */
-
-
-
-/* TABLET */
-
-
-
 /*Mobile Stuff to hide*/
 #menubtn{
     display: none; 
@@ -570,14 +560,19 @@ article.post p{
 
 @media only screen and (max-width: 925px){
 	.post-excerpt{
-	width:45%;
-	border: 1px solid #eee;
+		width:45%;
+		border: 1px solid #eee;
 	}
 }
 
 @media only screen and (max-width: 852px){
 	.post-excerpt{
-	width:40%;
+		width:40%;
+	}
+}
+@media only screen and (max-width: 845px){
+	.buttons{
+		display:none;
 	}
 }
 
@@ -598,9 +593,6 @@ article.post p{
 	}
 	
 	#sidebar{
-		display:none;
-	}
-	.buttons{
 		display:none;
 	}
 	
