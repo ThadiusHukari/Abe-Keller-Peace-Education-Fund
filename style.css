@@ -595,6 +595,72 @@ article.post p{
 		width:100%;
 	}
 }
+
+@media only screen and (max-width: 740px){
+	/* Nav Styles*/
+
+    .button{
+        display: none; 
+    }
+    
+    #navigation{
+        border-radius: 0px;  
+        position: static;
+        background-color: #1a5b72; 
+    }
+    
+    #menubtn{
+        display: block;
+        background-color: #1a5b72; 
+        color: white; 
+        width: 99.99%; /*to match the hero img*/ 
+        border: none; 
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400px; 
+        padding-top: 12px;
+        padding-bottom: 12px; 
+        padding-right: 65%; 
+        padding-left: 2.5%; 
+        font-size:1.1875em;
+        margin-left: 1px; 
+    }
+    
+    #nav-main{
+        padding-left: 0px; 
+        display: none; 
+        overflow: hidden; 
+        margin-left: 1px; 
+    }
+    
+    #navigation ul li ul.sub-menu{
+        display: block; 
+        position: relative;
+        padding-left: 16px; 
+        background-color: #1a5b72; 
+    }
+    
+    #navigation ul li ul.sub-menu a{
+        color: white; 
+        background-color: #1a5b72;
+    }
+    
+    #navigation-items > li {
+	    width:100%;   
+        position:relative;
+    }
+    
+    #navigation-items > li a{
+	    color: white; 
+        background-color: #1a5b72;
+    }
+    
+        
+    #utilities{
+        width: 100%;
+    }
+    
+    /*end nav styles*/
+}
 @media only screen and (max-width: 600px){
 	.post-excerpt{
 	width:99%;
@@ -714,69 +780,7 @@ article.post p{
         width:30%; 
     }/*aligns better on small page*/
     
-    /* Nav Styles*/
-
-    .button{
-        display: none; 
-    }
     
-    #navigation{
-        border-radius: 0px;  
-        position: static;
-        background-color: #1a5b72; 
-    }
-    
-    #menubtn{
-        display: block;
-        background-color: #1a5b72; 
-        color: white; 
-        width: 99.99%; /*to match the hero img*/ 
-        border: none; 
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 400px; 
-        padding-top: 12px;
-        padding-bottom: 12px; 
-        padding-right: 65%; 
-        padding-left: 2.5%; 
-        font-size:1.1875em;
-        margin-left: 1px; 
-    }
-    
-    #nav-main{
-        padding-left: 0px; 
-        display: none; 
-        overflow: hidden; 
-        margin-left: 1px; 
-    }
-    
-    #navigation ul li ul.sub-menu{
-        display: block; 
-        position: relative;
-        padding-left: 16px; 
-        background-color: #1a5b72; 
-    }
-    
-    #navigation ul li ul.sub-menu a{
-        color: white; 
-        background-color: #1a5b72;
-    }
-    
-    #navigation-items > li {
-	    width:100%;   
-        position:relative;
-    }
-    
-    #navigation-items > li a{
-	    color: white; 
-        background-color: #1a5b72;
-    }
-    
-        
-    #utilities{
-        width: 100%;
-    }
-    
-    /*end nav styles*/
     
     .home .widget{
         display: block;
