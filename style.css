@@ -555,11 +555,6 @@ article.post p{
 
 /*Mobile Styles*/
 
-@media only screen and (max-width: 1086px){
-/*Fixes the issues with Utilities*/
-    
-}
-
 @media only screen and (max-width: 925px){
 	.post-excerpt{
 		width:45%;
@@ -578,7 +573,10 @@ article.post p{
 	}
 }
 
+
 @media only screen and (max-width: 775px){
+    
+
 	.home .widget{
 		width: 100%;
 		float:none;
@@ -630,6 +628,9 @@ article.post p{
         padding-left: 2.5%; 
         font-size:1.1875em;
         margin-left: 1px; 
+        margin-top: 5px; 
+        position: relative; 
+        z-index: 1; 
     }
     
     #nav-main{
@@ -661,12 +662,8 @@ article.post p{
         background-color: #1a5b72;
     }
     
-        
-    #utilities{
-        width: 100%;
-    }
     
-    /*end nav styles*/
+
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
