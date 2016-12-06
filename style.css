@@ -153,6 +153,10 @@ a:hover, a:focus {
     font-weight: 300;   
 }
 
+.utility ::after{
+    clear: both; 
+}
+
 .utility a p{
     display: inline; 
 }
@@ -573,6 +577,40 @@ article.post p{
 	}
 }
 
+@media only screen and (max-width: 815px){
+    
+    #header{
+        height: auto; 
+        /*header previously a set 135px, was causing issues on mobile site*/
+    }
+    
+    #utilities{
+        width: 60%; /*width matches h1 kindaish. fixes issue with facebook float*/ 
+    }
+    
+    #utltyrgt{
+        width: 50%; /*fixes issue with facebook float*/
+    }
+    
+    #utltylft{
+        width: 50%; /*fixes issue with facebook float*/
+    }
+    
+    #logo{
+        margin-bottom: 10px; 
+    }
+
+    .breadcrumbs{
+        padding-top: 10px; 
+        padding-bottom: 10px; 
+    }
+    
+    .herobox{
+        top:-110px; 
+        font-size: 1.45em; 
+    }
+}
+
 
 @media only screen and (max-width: 775px){
     
@@ -661,8 +699,6 @@ article.post p{
 	    color: white; 
         background-color: #1a5b72;
     }
-    
-    
 
 }
 @media only screen and (max-width: 600px){
