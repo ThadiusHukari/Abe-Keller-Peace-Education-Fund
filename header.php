@@ -57,15 +57,15 @@
     </script>
 	<!--End Navigation-->  
     </div>
-    
-    <!--Breadcrumbs Start-->
-    <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
-    <!--Breadcrumbs End-->
-    
+        
     <!--Begin Content-->
     <div id="middle">
+    
+    <!--Breadcrumbs Start-->
+        <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+        <?php if(function_exists('bcn_display'))
+        {
+            bcn_display();
+        }?>
+        </div>
+    <!--Breadcrumbs End-->
