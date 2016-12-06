@@ -285,7 +285,7 @@ a:hover, a:focus {
 footer{
 	clear: both;
 	background-color: #1a5b72;;
-    height: 176px;
+    min-height: 176px;
     line-height: 60px;
 	position:relative;
     margin-top: 50px;
@@ -699,27 +699,38 @@ article.post p{
 	    color: white; 
         background-color: #1a5b72;
     }
-
+	
+	.herobox{
+		top: -100px;
+		left: 25%;
+	}
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
-	width:99%;
-	height:auto;
-	margin: 1em 0;
+		width:99%;
+		height:auto;
+		margin: 1em 0;
 	}
 	
 	.post-excerpt img{
-	position: relative;
-    left: 0;
-    transform: none;
-	margin: 1em 1em 1em 0;
-	float:left;
+		position: relative;
+		left: 0;
+		transform: none;
+		margin: 1em 1em 1em 0;
+		float:left;
 	}
 	
 	.post-excerpt p{
 		margin-top: 1em;
 	}
 
+}
+
+@media only screen and (max-width: 503px){
+	article.page-content h2,
+	article.post h2{
+		margin-top:0.5em;
+	}
 }
 
 @media only screen and (max-width: 425px){
