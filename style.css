@@ -602,9 +602,20 @@ article.post p{
 		width:40%;
 	}
 }
+
 @media only screen and (max-width: 845px){
 	.buttons{
 		display:none;
+	}
+}
+
+@media only screen and (max-width: 838px){
+	header{
+		margin-top: 0;
+	}
+	#logo{
+		margin-top: 25px;
+    	margin-bottom: 0.5em;
 	}
 }
 
@@ -728,6 +739,9 @@ article.post p{
 	    color: white; 
         background-color: #1a5b72;
     }
+	#logo{
+		margin-top:0;
+	}
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
