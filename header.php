@@ -28,10 +28,10 @@
     <h1>Abe Keller Peace Education Fund</h1>
     <nav id="utilities">
         <div class="utility" id="utltylft">
-            <a href="<?php bloginfo('url'); ?>/join-mail-list"><img src=<?php echo get_template_directory_uri(); ?>/images/mail.png alt="envelope graphic"/><p>join the mailing list</p></a>
+            <a href="<?php bloginfo('url'); ?>/join-mail-list"><img src=<?php echo get_template_directory_uri(); ?>/images/mail-logoandword.png alt="envelope graphic"/></a>
         </div>
         <div class="utility" id="utltyrgt">
-            <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/facebook.png alt="facebook f logo"/><p>facebook</p></a>
+            <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/fb-logoandword.png alt="facebook f logo"/></a>
         </div>
         
     </nav>

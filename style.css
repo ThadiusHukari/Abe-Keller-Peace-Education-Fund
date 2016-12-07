@@ -129,7 +129,7 @@ a:hover, a:focus {
     margin-bottom: 0;
     padding-bottom: 0; 
     display: inline-block;
-    max-height: 40px; 
+    max-height: 40px;
     width: 34%; /*resolves #utltyrgt issue with floating under*/
 }
 
@@ -143,7 +143,7 @@ a:hover, a:focus {
 .utility img{
     float: left; /*float needed to keep alignment*/
     display: inline-block;
-    max-width: 38px;
+    /*max-width: 38px;*/
     /*width: 22%; does not work or resize correctly*/
     padding-left: 5px; 
     padding-right: 5px; 
@@ -174,7 +174,7 @@ a:hover, a:focus {
 
 
 #utltylft{
-    width:65%; 
+    width:48%; 
 
 }
 
@@ -202,6 +202,7 @@ a:hover, a:focus {
 
 #nav-main{
     padding-left: 20px; 
+    padding-top: 5px;
     /*keeps the naviation from peeking out behind the logo*/
 }
 
@@ -588,6 +589,7 @@ article.post p{
 
 /*Mobile Styles*/
 
+/*
 @media only screen and (max-width: 965px){
     #header h1{
         font-size: 1.75em; 
@@ -596,7 +598,7 @@ article.post p{
         max-width: 32px; 
         height: auto; 
     }
-}
+} */
 
 @media only screen and (max-width: 925px){
 	.post-excerpt{
@@ -607,7 +609,7 @@ article.post p{
         font-size: 1.5em; 
     }
     #utilities img{
-        max-width: 30px; 
+        max-width: 80px; 
         height: auto; 
     }
 }
