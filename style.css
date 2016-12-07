@@ -781,12 +781,14 @@ article.post p{
     }
     
     #utltylft{
-        width:70%; 
+        width:auto; 
+		float: left;
     }
 
     #utltyrgt{
-        width:30%; 
-    }/*aligns better on small page*/
+        width:auto; 
+		float: right;
+    }
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
