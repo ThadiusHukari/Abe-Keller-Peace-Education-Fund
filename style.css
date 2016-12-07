@@ -193,7 +193,7 @@ a:hover, a:focus {
 
 /*Primary Navigation*/
 #navigation{
-	margin-bottom:4em;
+	margin-bottom:3em;
 	line-height:1.5em;
 	background-color:#1a5b72;
 	border-radius: 50px 0 0 50px;
@@ -645,7 +645,15 @@ article.post p{
     
     #logo{
         margin-bottom: 10px; 
+		margin-top: 25px;
     }
+	header{
+		margin-top: 0;
+	}
+	
+	#nav-main{
+		margin-top:2.5em;
+	}
 
     .breadcrumbs{
         padding-top: 10px; 
