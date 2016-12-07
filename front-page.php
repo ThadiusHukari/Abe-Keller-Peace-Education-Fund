@@ -45,6 +45,12 @@
                     </a>
                 </div>
 </div>
-    
+
+<!--Get Sidebar2 with Calls to Action-->    
+<div class="widget" id="ctas">
+        <?php dynamic_sidebar(2); //call the widgets ?>
+</div>
+<!--End Sidebar2-->
+
 <!--Get Footer Function-->
 <?php get_footer(); ?> 

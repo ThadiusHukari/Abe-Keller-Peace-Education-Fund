@@ -295,6 +295,21 @@ a:hover, a:focus {
     clear: both; 
 }
 
+
+#ctas {
+    
+}
+
+#ctas .widget {
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 20px;
+}
+
+#ctas .widget:last-child {
+    margin-right: 0px;
+}
+
 /*footer*/
 footer{
 	clear: both;

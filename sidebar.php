@@ -62,12 +62,5 @@
     <?php endif; ?>
 <!--End Quote-->
 
-<!--Begin Dynamic Sidebar-->
-    
-    <?php dynamic_sidebar(1); //call the widgets ?>
-
-<!--End Dynamic Sidebar-->
-
-
 </div>
 <!--End Sidebar -->
