@@ -116,7 +116,11 @@ a:hover, a:focus {
 
 #header h1{
     display: inline; 
-    font-weight: 400;
+    line-height: 40px; 
+    /*2 lines below adjust alignment of title so title and utilites align at top*/
+    position: relative; 
+    top: -7px; 
+    
 }
 
 #utilities{
@@ -126,7 +130,6 @@ a:hover, a:focus {
     padding-bottom: 0; 
     display: inline-block;
     max-height: 40px; 
-    vertical-align: bottom; 
     width: 34%; /*resolves #utltyrgt issue with floating under*/
 }
 
@@ -140,7 +143,8 @@ a:hover, a:focus {
 .utility img{
     float: left; /*float needed to keep alignment*/
     display: inline-block;
-    max-width: 38px; 
+    max-width: 38px;
+    /*width: 22%; does not work or resize correctly*/
     padding-left: 5px; 
     padding-right: 5px; 
     vertical-align: text-bottom;
@@ -152,8 +156,8 @@ a:hover, a:focus {
     text-decoration: none; 
     color: #1a5b72;
     padding-left: .3%;
-    vertical-align: bottom; 
-    font-weight: 300;   
+    font-weight: 300;  
+    vertical-align: bottom;
 }
 
 .utility img ::after{
@@ -573,6 +577,10 @@ article.post p{
     #header h1{
         font-size: 1.75em; 
     }
+    #utilities img{
+        max-width: 32px; 
+        height: auto; 
+    }
 }
 
 @media only screen and (max-width: 925px){
@@ -580,8 +588,13 @@ article.post p{
 		width:45%;
 		border: 1px solid #eee;
 	}
-    
-    
+    #header h1{
+        font-size: 1.5em; 
+    }
+    #utilities img{
+        max-width: 30px; 
+        height: auto; 
+    }
 }
 
 @media only screen and (max-width: 852px){
