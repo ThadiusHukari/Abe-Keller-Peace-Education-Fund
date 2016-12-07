@@ -1,6 +1,6 @@
 /*
 Theme Name: Abe Keller Theme
-Author: Alycia Cahill
+Author: Alycia Cahill, Thadius Hukari, Tatiana Zaccara, Russell Schneider
 Author URI: www.alyciacahill.com
 Description: Theme for Abe Keller Peace Education FUNd
 Text Domain: Abe Keller Theme
@@ -39,9 +39,10 @@ body{
     overflow: hidden; 
     z-index: -1; 
     bottom: 0px; 
-    left: 200px; 
+    left: 175px; 
     display: block; 
 }
+
 
 p{
 	margin-bottom:0.5em;
@@ -99,9 +100,9 @@ a:hover, a:focus {
 /*Header*/
 
 #header{
-    height: 135px; /*reducing 5px*/
+    height: auto; 
     margin-top: 25px;
-	/*margin-bottom: 1em;*/
+    margin-bottom: 0; 
 }
 
 #logo{
@@ -113,28 +114,30 @@ a:hover, a:focus {
 /*Utilities*/
 
 #header h1{
-    width: 43.75%; 
     display: inline; 
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 #utilities{
+    float: right; /*keeps #utilities at the edge of the header*/
     padding-right: 0;
     margin-bottom: 0;
     padding-bottom: 0; 
     display: inline-block;
     max-height: 40px; 
     vertical-align: bottom; 
+    width: 34%; /*resolves #utltyrgt issue with floating under*/
 }
 
+
 .utility{
-    float: left; 
+    float: left; /*float needed to keep alignment*/
     display: inline-block;  
     max-height: 40px; 
 }
 
 .utility img{
-    float: left; 
+    float: left; /*float needed to keep alignment*/
     display: inline-block;
     max-width: 38px; 
     padding-left: 5px; 
@@ -144,13 +147,16 @@ a:hover, a:focus {
 }
 
 .utility a{
-    float: left; 
     display: inline-block; 
     text-decoration: none; 
     color: #1a5b72;
     padding-left: .3%;
     vertical-align: bottom; 
     font-weight: 300;   
+}
+
+.utility img ::after{
+    clear: both; 
 }
 
 .utility ::after{
@@ -163,15 +169,18 @@ a:hover, a:focus {
 
 
 #utltylft{
-    width:70%; 
+    width:65%; 
 
 }
 
 #utltyrgt{
-    width:20%; 
+    width:35%; 
+    display: inline-block; 
 }
 
-
+#utltyrgt p{
+    display: inline; 
+}
 
 #utilities:after{
     clear: both; 
@@ -287,7 +296,7 @@ footer{
 	background-color: #1a5b72;;
     min-height: 176px;
     line-height: 60px;
-	position:relative;
+	position: relative;
     margin-top: 50px;
 }
 
@@ -559,11 +568,19 @@ article.post p{
 
 /*Mobile Styles*/
 
+@media only screen and (max-width: 965px){
+    #header h1{
+        font-size: 1.75em; 
+    }
+}
+
 @media only screen and (max-width: 925px){
 	.post-excerpt{
 		width:45%;
 		border: 1px solid #eee;
 	}
+    
+    
 }
 
 @media only screen and (max-width: 852px){
@@ -579,13 +596,11 @@ article.post p{
 
 @media only screen and (max-width: 815px){
     
-    #header{
-        height: auto; 
-        /*header previously a set 135px, was causing issues on mobile site*/
-    }
-    
     #utilities{
-        width: 60%; /*width matches h1 kindaish. fixes issue with facebook float*/ 
+        width: 60%; 
+        /*width matches h1 kindaish. fixes issue with facebook float*/ 
+        float: left;
+        /*reverses previous float right so items are now under the header*/
     }
     
     #utltyrgt{
