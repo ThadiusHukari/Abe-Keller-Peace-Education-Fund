@@ -36,11 +36,12 @@ body{
 
 #background{
     position:absolute; 
-    overflow: hidden; 
     z-index: -1; 
-    bottom: 0px; 
-    left: 175px; 
-    display: block; 
+    bottom: 0px;
+    display: block;
+    /*percents on left and width solve overflow issue */
+    left: 15%; 
+    width: 85%; 
 }
 
 
