@@ -609,16 +609,6 @@ article.post p{
 	}
 }
 
-@media only screen and (max-width: 838px){
-	header{
-		margin-top: 0;
-	}
-	#logo{
-		margin-top: 25px;
-    	margin-bottom: 0.5em;
-	}
-}
-
 @media only screen and (max-width: 815px){
     
     #utilities{
