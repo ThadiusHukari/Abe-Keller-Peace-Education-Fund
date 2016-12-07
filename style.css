@@ -699,11 +699,6 @@ article.post p{
 	    color: white; 
         background-color: #1a5b72;
     }
-	
-	.herobox{
-		top: -100px;
-		left: 25%;
-	}
 }
 @media only screen and (max-width: 600px){
 	.post-excerpt{
