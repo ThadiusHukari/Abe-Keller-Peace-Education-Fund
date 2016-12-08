@@ -32,12 +32,7 @@
 		    </p>
 		
 		</article>
-        <nav class="post-nav">
-            <p class="alignleft"><?php previous_posts_link('&laquo; Previous posts') ?></p>
-            <p class="alignright"><?php next_posts_link('Recent posts &raquo;') ?></p>
-		</nav>
-		
-		<?php endwhile; ?>
+       	<?php endwhile; ?>
 		
 		<nav class="post-nav">
             <p class="alignleft"><?php previous_posts_link('&laquo; Previous posts') ?></p>
