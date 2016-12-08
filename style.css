@@ -221,8 +221,8 @@ a:hover, a:focus {
 	display:block;
 	padding-top: 12px; 
     padding-bottom: 12px; 
-    padding-right: 1.2245%; 
-    padding-left: 1.2245%; 
+    padding-right: 0; 
+    padding-left: 5%; 
 	text-transform:lowercase;
     font-weight: 400; 
 }
