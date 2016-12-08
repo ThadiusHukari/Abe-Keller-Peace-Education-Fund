@@ -37,7 +37,13 @@
             <p class="alignright"><?php next_posts_link('Recent posts &raquo;') ?></p>
 		</nav>
 		
-		<?php endwhile; endif; //end the loop?>
+		<?php endwhile; ?>
+		
+		<nav class="post-nav">
+            <p class="alignleft"><?php previous_posts_link('&laquo; Previous posts') ?></p>
+            <p class="alignright"><?php next_posts_link('Recent posts &raquo;') ?></p>
+		</nav>
+		<?php endif; //end the loop?>
 		
 		</div>
     <!--End Text-->
