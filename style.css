@@ -283,6 +283,10 @@ a:hover, a:focus {
 	color: #db5959;	
 }
 
+#sidebar a:hover, a:focus {
+    font-weight: normal;
+}
+
 #sidebar h3{
 	text-align:center;
 	color: #1a5b72;
