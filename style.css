@@ -508,6 +508,10 @@ article.post p{
 	margin-bottom:0;
 }
 
+.post-excerpt a:hover,
+.post-excerpt a:focus{
+	font-weight: normal;
+}
 .post-excerpt img{
 	border-radius:50%;
 	max-width:220px;
