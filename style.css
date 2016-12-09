@@ -59,9 +59,11 @@ p{
 	margin-top:0.5em;
 }
 
-#content ul{
+#content ul, 
+#content ol{
 	list-style:inside;
 	margin-left:2em;
+	padding-bottom: 1em;
 }
 
 /*headings styles*/
@@ -395,10 +397,11 @@ footer p{
 }
 
 #content.seo{
-    max-width: 580px;
+    max-width: 620px;
     margin: 0 auto;
 	padding: 0 0 45px ;
 	float: none;
+	font-size:1.2em;
 }
 
 .ctacontainer{
