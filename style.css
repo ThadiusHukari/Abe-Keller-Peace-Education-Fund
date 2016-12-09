@@ -563,6 +563,14 @@ article.post p{
 	width: auto;
 }
 
+span.wpcf7-list-item {
+    margin: 0 4em 0 0;
+}
+
+.checkbox-760{
+	width: auto;
+}
+
 /*button styles*/
 .button {
     max-width: 140px; 

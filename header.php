@@ -31,7 +31,7 @@
             <a href="<?php bloginfo('url'); ?>/join-mail-list"><img src=<?php echo get_template_directory_uri(); ?>/images/mail-logoandword.png alt="envelope graphic"/></a>
         </div>
         <div class="utility" id="utltyrgt">
-            <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/"><img src=<?php echo get_template_directory_uri(); ?>/images/fb-logoandword.png alt="facebook f logo"/></a>
+            <a href="https://www.facebook.com/Abe-Keller-Peace-Education-Fund-204425039587193/" target="_blank"><img src=<?php echo get_template_directory_uri(); ?>/images/fb-logoandword.png alt="facebook f logo"/></a>
         </div>
         
     </nav>

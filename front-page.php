@@ -28,13 +28,13 @@
                     <a href="<?php bloginfo('url'); ?>/apply">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/apply_icon.png" alt="Apply now" />
                    	<h2>Apply for a grant</h2>
-                    <p>Any individual or group may seek financial assistance for a peace or justice education project. The Board may also solicit proposals consistent with its peace and justice education objectives</p>
+                    <p>Any individual or group may seek financial assistance for a peace or justice education project. The Board may also solicit proposals consistent with its peace and justice education objectives.</p>
                     </a>
                 </div>
        		 	<div class="widget" id="ctaTwo">
                     <a href="<?php bloginfo('url'); ?>/about-the-fund"><img src="<?php echo get_template_directory_uri();?>/images/abeKeller.png" alt="About the Fund" />
                    	<h2>About the Fund</h2>
-                    <p>The Abe Keller Peace Education Fund is a non-profit organization, achieving 501C(3) status in 2000. The Fund plays a unique role of providing financial support for peace and justice education in the Pacific Northwest</p>
+                    <p>The Abe Keller Peace Education Fund is a non-profit organization, achieving 501C(3) status in 2000. The Fund plays a unique role of providing financial support for peace and justice education in the Pacific Northwest.</p>
                     </a>
                 </div>
                 <div class="widget" id="ctaThree">
