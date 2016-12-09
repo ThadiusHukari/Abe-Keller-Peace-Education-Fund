@@ -86,7 +86,7 @@ function get_ctas($atts) {
 	$caseImage = get_the_post_thumbnail($myPostID, 'medium'); // get featured thumbnail
 	$caseLink = get_permalink($myPosting->ID); // get permalink
     
-    $ctas = '<section class="ctas"><h3><a href="'.$caseLink.'">'.$caseTitle.$caseImage.'<p>'.$caseExcerpt.'&nbsp;</p></a></section>'; // write it up...
+    $ctas = '<div class="ctas"><a href="'.$caseLink.'">'.$caseImage .'<h2>'.$caseTitle.'</h2>'.'<p>'.$caseExcerpt.'&nbsp;</p></a></div>'; // write it up...
     
 	return $ctas; // ... and return it
 }
