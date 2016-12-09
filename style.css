@@ -424,30 +424,30 @@ footer p{
 	margin-top:1em;
 }
 
-.home .widget{
+.home .ctas{
 	width: 31%;
 	float:left;
 	margin: 0 2% 0 0;
 }
 
-#ctaThree{
+.home .ctas:nth-of-type(3){
 	margin-right:0;
 }
 
-.home .widget a{
+.home .ctas a{
 	text-decoration:none;
 	display:block;
 	color: #333;
 }
 
-.home .widget a h2{
+.home .ctas a h2{
 	padding-bottom: 16px;
 	color: #1a5b72;
 	font-size: 2.1875em;
 	margin: 0;
 }
 
-.home .widget p{
+.home .ctas p{
 	margin:8px;
 }
 
@@ -716,7 +716,7 @@ span.wpcf7-list-item {
 @media only screen and (max-width: 775px){
     
 
-	.home .widget{
+	.home .ctas{
 		width: 100%;
 		float:none;
 		margin: 0.5em;
@@ -931,7 +931,7 @@ span.wpcf7-list-item {
     }
     
  
-    .home .widget{
+    .home .ctas{
         display: block;
         width: 100%; 
         height: auto; 
@@ -1003,7 +1003,7 @@ span.wpcf7-list-item {
         position: relative;
     }
      
-    .home .widget{
+    .home .ctas{
         display: block; 
 		height: auto;
         position: relative; 
@@ -1011,7 +1011,7 @@ span.wpcf7-list-item {
         margin-right: 0px; /*previous margin created issue*/
     }
     
-    .home .widget img{
+    .home .ctas img{
         max-height: 220px; 
         max-width: 220px; 
         height: 56%;
@@ -1021,7 +1021,7 @@ span.wpcf7-list-item {
         padding-bottom: 5px; 
     }
     
-    .home .widget a h2{
+    .home .ctas a h2{
         font-size:  1.5em; 
         font-weight: 600; /*semibold*/
         text-align: center; 
@@ -1029,7 +1029,7 @@ span.wpcf7-list-item {
         padding-bottom: 0; 
     }
     
-    .home .widget p{
+    .home .ctas p{
         font-size: 1em;
         padding-left: 6%; 
         padding-right: 6%; 
