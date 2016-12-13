@@ -1036,10 +1036,15 @@ span.wpcf7-list-item {
         padding-right: 6%; 
     }
 	
-	article.page-content img{
+	article.page-content img,
+	article.post img,
+	article.page-content img .alignright,
+	article.post img .alignright,
+	article.page-content img .alignleft,
+	article.post img .alignleft{
 		float:none;
 		display:block;
-		margin: auto;
+		margin: 5px auto;
 	}
     
     footer{
