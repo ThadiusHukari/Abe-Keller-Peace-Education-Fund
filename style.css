@@ -1081,12 +1081,14 @@ div.aligncenter {
     margin: 5px auto 5px auto;
 }
 
-.alignright {
+article.page-content .alignright,
+article.post .alignright{
     float:right;
     margin: 5px 0 20px 20px;
 }
 
-.alignleft {
+article.page-content .alignleft,
+article.post .alignleft {
     float: left;
     margin: 5px 20px 20px 0;
 }
