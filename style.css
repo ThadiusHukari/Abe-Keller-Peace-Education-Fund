@@ -501,6 +501,11 @@ article.post p{
 
 
 /*Index*/
+
+#content a:hover, 
+#content a:focus {
+    font-weight: normal;
+}
 .post-excerpt{
 	width:28%;
 	float: left;
